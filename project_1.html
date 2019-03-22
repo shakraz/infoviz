@@ -19,6 +19,24 @@
   <link href="css/blog-home.css" rel="stylesheet">
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <style>
+@media screen (min-width: 400px) {
+#menu{
+  float: none;
+}
+}
+#tooltip {
+	position: absolute;
+	display: none;
+	background: rgba(0,0,0,.9);
+	margin-left: 5px;
+	padding: 12px 15px 14px;
+	font-size: 12px;
+	line-height: 14px;
+	width: 215px;
+	color: #fff;
+}
+
+
 
 .r-line {
     fill: none;
@@ -89,6 +107,7 @@
           <p>Posted on January 1, 2019 at 12:00 PM</p>
 
 <div id="main">
+  <div id="tooltip"></div>
   <div id="menu">
   </div>
   <div id='chart'>

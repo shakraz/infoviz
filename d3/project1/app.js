@@ -1,6 +1,6 @@
 var dataset;
 var regions;
-
+var tooltip = d3.select("#tooltip");
 
 function draw(id="РЕСПУБЛИКА КАЗАХСТАН"){
 
@@ -64,6 +64,12 @@ d3.select(".x-axis")
   .attr('cy', function(d){return y_scale(d.marriages)})
   .attr("r",3)
   .attr("fill", "green")
+  .on("mouseover", function(){
+    tooltip
+				.style("display", "inline")
+				.style("left", (d3.event.pageX) + "px")
+				.style("top", (d3.event.pageY) + "px");
+  })
 
   g.selectAll('circle')
   .data(data)
@@ -108,6 +114,11 @@ function drawMenu(){
       draw(this.id)
     })
 }
+
+function showTooltip(){
+
+}
+
 
 d3.csv('./data/zags.csv', function(data){
   data.forEach(function(d) {
