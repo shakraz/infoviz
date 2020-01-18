@@ -1,7 +1,7 @@
 
 <svg  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 700 400">
 
- <g fill="none" opacity=".99605" stroke="#000" stroke-linejoin="round" stroke-width="1.8898">
+ <g opacity=".99605" stroke="#000" stroke-linejoin="round" stroke-width="1.8898">
   <path id="vko-obl" class="region" d="m495.98 117.38-6.1065 8.142 2.0355 65.814 77.349-2.0355 19.676 26.461 2.714-42.067 42.067 0.6785-6.1065-36.639 15.605-10.177 4.7495-17.641-12.213-10.177-5.428 6.785-17.641 1.357-6.1065-8.8205-9.499 1.357-12.891-21.712-31.889 14.248-12.891-10.177-10.177 13.57-18.319-23.069-14.248 20.355 13.57 13.57-4.071 10.856z" opacity=".99357" stroke-linecap="round" style="paint-order:markers fill stroke"/>
   <path id="alm-obl" class="region" d="m567.22 300.57-21.712-8.142-62.422 6.785-12.891-31.889-13.57-4.7495-13.57-32.568 18.998-22.39 40.031-1.357-1.357-14.927 68.528-2.0355 19.676 26.461 10.856 1.357-3.3925 10.177-18.319-5.428-21.712 13.57 19.676 44.102z" opacity=".99357" stroke-linecap="round" style="paint-order:markers fill stroke"/>
   <path id="pavl-obl" class="region" d="m510.91 73.278-25.783-33.925-18.998-10.177 4.7495-13.57-50.209 30.532 10.856 23.069-2.714 27.14 24.426 29.175 23.747-10.856 3.3925-9.499 15.605 12.213 10.177 0.6785 4.071-10.856-13.57-13.57z" stroke-linecap="round" style="paint-order:markers fill stroke"/>
