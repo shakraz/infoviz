@@ -1,0 +1,715 @@
+bug_id,summary,component_name,owner,reporter,type_id,status_id,priority_id,created,life_days
+134951050,[Data Mart] New Tables - PezCloudSQL for Txn Details,HCM Data Mart,,sameerpatel,FEATURE_REQUEST,NEW,P3,2019-06-10,4
+137557302,[HCM Report] Negative HC report scripts needs DEFINE TABLE to keep table owner current,HCM Dashboards,hkondreddy,alvinying,BUG,ASSIGNED,P2,2019-07-15,0
+143554676,"Loans - Column name change in loans ""loan_repayed_hc""",HCM Data Mart,ganeshprabhu,zeljebbari,BUG,FIXED,P2,2019-10-29,23
+146158613,[Data Mart] Issue summary - Enable loan dimensions and facts to be populated in BQ and Plx,HCM Data Mart,pmallireddy,pmallireddy,FEATURE_REQUEST,FIXED,P2,2019-12-12,1
+141543161,Loans dev - landing tables,HCM Data Mart,hongyil,zeljebbari,FEATURE_REQUEST,VERIFIED,P2,2019-09-24,35
+136092227,[Data Mart]  Google HC Tool - One Time historical Team Allocation data feed,HCM Data Mart,sameerpatel,sameerpatel,FEATURE_REQUEST,FIXED,P2,2019-06-26,27
+141542661,Loans dev - create facts in consumption layer,HCM Data Mart,pmallireddy,zeljebbari,FEATURE_REQUEST,FIXED,P2,2019-09-24,80
+146010642,[HCM Loans Report] LoansGiverHeadcountHistory view - loan owner security filter,HCM Dashboards,mstockwell,mstockwell,BUG,FIXED,P2,2019-12-10,9
+117600193,[HCM Report] Add display for user's access,HCM Dashboards,epahal,alvinying,FEATURE_REQUEST,FIXED,P2,2018-10-11,33
+140745556,Update Retry and Duration in 'PezCloudSQLtoBQ - Landing' Clarinet Pipeline.,HCM Data Mart,ganeshprabhu,ganeshprabhu,BUG,FIXED,P2,2019-09-09,3
+141542627,Loans dev - create dimensions in consumption layer + Plx tables/views,HCM Data Mart,aghorai,zeljebbari,FEATURE_REQUEST,FIXED,P2,2019-09-24,79
+119569167,[HCM Report] 'Exclude' filter doesn't work as expected,HCM Dashboards,epahal,apisarchyk,BUG,WILL_NOT_FIX,P3,2018-11-14,0
+147613552,Export manager_hierarchy_history from BQ to Plx,HCM Data Mart,orazs,orazs,FEATURE_REQUEST,ASSIGNED,P2,2020-01-13,4
+137846260,[Data Mart] Consistent handling of Boolean values,HCM Data Mart,zeljebbari,mstockwell,INTERNAL_CLEANUP,VERIFIED,P2,2019-07-18,141
+132775225,Ctrl End Date should be set to Dec 31st 9999 and start time should be 12AM,HCM Data Mart,hongyil,sameerpatel,INTERNAL_CLEANUP,ACCEPTED,P3,2019-05-15,195
+144419692,headcount_transaction_impact view definition is out of date,HCM Data Mart,hongyil,orazs,BUG,FIXED,P1,2019-11-13,0
+147735970,[Data Mart] Impact of Management and Job Code changes,HCM Data Mart,,nidhishk,PROCESS,NEW,P2,2020-01-15,8
+132091359,HCM Reporting Data Mart Launch,HCM Data Mart,sunilsaxena,sunilsaxena,PROCESS,FIXED,P1,2019-05-06,28
+144941955,Intended negatives. SR Detail not matching summary (tab3),HCM Dashboards,orazs,orazs,BUG,FIXED,P1,2019-11-21,4
+137551708,HCM Data Mart Business continuity process,HCM Data Mart,,zeljebbari,PROCESS,NEW,P2,2019-07-15,134
+146629848,"ClarinetJobFailed: Pipeline ""PezCloudSQLtoBQ - headcount_slot_total"" failed to run.",HCM Production Bugs,sunilsaxena,mdb.clarinet,BUG,FIXED,P1,2019-12-20,19
+137544446,Data Mart v1.2 - Staffing requests: create Product/business requirements document,HCM Data Mart,mstockwell,zeljebbari,FEATURE_REQUEST,VERIFIED,P2,2019-07-15,36
+137773293,Data Mart - Implications of changing date fields from timestamp to DATE,HCM Data Mart,,zeljebbari,BUG,NEW,P2,2019-07-17,132
+136467453,HCM DQ Jobs failed on 0701,HCM Data Mart,orazs,aghorai,BUG,FIXED,P2,2019-07-01,8
+142334634,[HCM Report] Add CC Rollups to Headcount & Staffing Progress,HCM Dashboards,zeljebbari,potalora,BUG,ASSIGNED,P3,2019-10-08,1
+148462418,[Data Mart] Headcount & Staffing Test Dashboard re-point *_PerfTest views,HCM Data Mart,orazs,nidhishk,FEATURE_REQUEST,FIXED,P3,2020-01-28,1
+139188123,[Data Mart] Correct/Set dependencies for HCM dev jobs in HCM reporting DEV and Corp Data Store DEV,HCM Data Mart,hongyil,hongyil,INTERNAL_CLEANUP,FIXED,P2,2019-08-09,5
+138619246,Data Mart v1.2 - Create functional design document for staffing request,HCM Data Mart,sameerpatel,zeljebbari,FEATURE_REQUEST,VERIFIED,P2,2019-07-30,21
+139184575,[Data Mart] DQ - Manager and CC Null Check - add thresholds using min and max threshold columns from config,HCM Data Mart,orazs,mraizada,FEATURE_REQUEST,VERIFIED,P2,2019-08-09,19
+143528944,"Pipeline ""SRT Source Data Extraction"" (UAT) failed to run",HCM Data Mart,ganeshprabhu,orazs,BUG,FIXED,P2,2019-10-29,1
+139040995,[HCM Dashboard] Incorrect headcount numbers in Planning dashboard,HCM Dashboards,cviswanathan,cviswanathan,BUG,VERIFIER_ASSIGNED,P2,2019-08-07,0
+137965265,"[Data Mart] Cleanup Projects, datasets, tables",HCM Data Mart,,mstockwell,INTERNAL_CLEANUP,NEW,P2,2019-07-19,0
+134762572,[Data Mart] Review Pez Activity Proto,HCM Data Mart,sameerpatel,sameerpatel,FEATURE_REQUEST,FIXED,P2,2019-06-07,3
+135292988,[Data Mart] Pipeline not fully triggered on some days - short term fix,HCM Data Mart,pmallireddy,zeljebbari,BUG,VERIFIED,P2,2019-06-15,3
+147134060,HC dash - location tab based on the HCM data mart,HCM Data Mart,hkondreddy,zeljebbari,FEATURE_REQUEST,ASSIGNED,P2,2020-01-03,24
+133450395,[HCM Datamart] Feature Request : Populate the SOR extract date for all processed and consumption layer tables,HCM Data Mart,,pmallireddy,FEATURE_REQUEST,NEW,P3,2019-05-23,7
+143240914,[Data Mart] Manager in wrong level of hierarchy in TeamAllocationHistory,HCM Data Mart,pmallireddy,alvinying,BUG,FIXED,P3,2019-10-23,51
+113698561,[HCM Report] Add hyperlinks to Pez for Cost Center,HCM Dashboards,alvinying,alvinying,FEATURE_REQUEST,VERIFIED,P3,2018-08-31,7
+133241622,Test - bug,HCM Data Mart,,zeljebbari,BUG,WILL_NOT_FIX,P4,2019-05-21,0
+115747544,[HCM Report] Performance over 20 sec for 'By Manager' section,HCM Dashboards,,apisarchyk,BUG,WILL_NOT_FIX,P4,2018-09-14,248
+116019216,[HCM Report] 'Unable to authorize' error,HCM Dashboards,chavisinghal,apisarchyk,BUG,VERIFIED,P1,2018-09-18,1
+131172635,Issue summary - Add Cur Views for HC allocation & Team Allocation to Consumption layer,HCM Data Mart,pmallireddy,sameerpatel,FEATURE_REQUEST,FIXED,P2,2019-04-23,38
+144723623,[Data Mart] Update Historical Snapshot Process for Intraday CDC Changes,HCM Data Mart,sameerpatel,aghorai,FEATURE_REQUEST,ASSIGNED,P2,2019-11-18,45
+144490871,datauniverse_hcm_reporting.StaffingRequestSummarySnapshot.today access issue,HCM Data Mart,orazs,orazs,BUG,FIXED,P2,2019-11-14,0
+138433826,Update Google HC Tool Views to account for Col renaming of TG metric - non-Emp Team Allocation,HCM Data Mart,sameerpatel,sameerpatel,BUG,FIXED,P2,2019-07-26,0
+135754265,Set up IX cell for OK PCR,HCM Data Mart,aghorai,zeljebbari,BUG,VERIFIED,P2,2019-06-21,6
+135214695,[Team allocations] TVC showing up as Job Family Group and 0 person when only Employee Metric is selected,HCM Dashboards,alvinying,alvinying,BUG,VERIFIED,P3,2019-06-13,158
+140149780,Implement the logic to derive fact sor extract date for Team Allocation report,HCM Data Mart,pmallireddy,pmallireddy,FEATURE_REQUEST,FIXED,P2,2019-08-28,105
+120020006,[HCM Report] Negative Headcount Audit pipeline - Setup Rapid project for pipeline,HCM Dashboards,sofeeya,sofeeya,FEATURE_REQUEST,WILL_NOT_FIX,P2,2018-11-26,58
+140261777,Standardize ctrl columns across source landing table in CDS,HCM Data Mart,hongyil,pmallireddy,FEATURE_REQUEST,FIXED,P2,2019-08-29,105
+132171087,Engage power users (CoS/HCM/Prod Ops/Peeps Leads),HCM Data Mart,zeljebbari,zeljebbari,PROCESS,VERIFIED,P1,2019-05-07,51
+130442001,[Report Name] Version Table Changes need to be propagated to UAT env,HCM Data Mart,chavisinghal,chavisinghal,FEATURE_REQUEST,VERIFIER_ASSIGNED,P2,2019-04-12,39
+141938786,Wrong datatype in Hcm_Reporting_Processed.staffing_request_history table,HCM Data Mart,aghorai,orazs,BUG,VERIFIER_ASSIGNED,P2,2019-10-01,10
+147758308,[HCM Report Usage] Adding Powers users,HCM Dashboards,hkondreddy,hkondreddy,FEATURE_REQUEST,VERIFIED,P2,2020-01-15,1
+147907354,CC Admin dash automation,HCM Data Mart,zeljebbari,zeljebbari,FEATURE_REQUEST,ASSIGNED,P2,2020-01-17,10
+144451008,[Data Mart] Issue summary - Columns to be added in the HC plx view,HCM Data Mart,alvinying,pmallireddy,FEATURE_REQUEST,FIXED,P2,2019-11-13,0
+148196755,"ClarinetJobFailed: Pipeline ""Run PLX DQ Validation"" failed to run.",HCM Production Bugs,aghorai,mdb.clarinet,BUG,ASSIGNED,P2,2020-01-23,1
+148151196,[HCM Report] Grants Report - performance improvements,HCM Dashboards,mstockwell,mstockwell,BUG,FIXED,P2,2020-01-22,5
+138902893,[Data Mart] PROD HCM job failed,HCM Data Mart,sunilsaxena,sunilsaxena,PROCESS,FIXED,P1,2019-08-04,0
+136343482,[Data Mart] Production TG versioned job failed 29th June,HCM Data Mart,sunilsaxena,sunilsaxena,BUG,FIXED,P1,2019-06-29,0
+134062695,Google Headcount Planning - Phase 1: Pez Security Data,HCM Data Mart,varshinibala,varshinibala,PROCESS,WILL_NOT_FIX,P2,2019-05-30,203
+114103008,[Data Mart] Create Plx workflow to connect scripts and schedule for daily run,HCM Data Mart,alvinying,alvinying,FEATURE_REQUEST,VERIFIED,P2,2018-09-05,15
+145748495,Negative Headcount and Staffing Requests - Math signs are incorrect,HCM Dashboards,orazs,orazs,BUG,VERIFIED,P2,2019-12-05,1
+131426058,[Data Mart v1 dev issue] Very small tbh_hc in Data Mart (but not in Pez UI),HCM Data Mart,chavisinghal,alvinying,BUG,WILL_NOT_FIX,P2,2019-04-26,5
+147033659,"ClarinetJobFailed: Pipeline ""HCM Landing DQ"" failed to run.",HCM Production Bugs,pmallireddy,mdb.clarinet,BUG,FIXED,P1,2019-12-31,0
+132820017,Cleanup UAT Project and run as clean slate,HCM Data Mart,aghorai,sunilsaxena,FEATURE_REQUEST,FIXED,P1,2019-05-15,6
+148284552,[HCM Usage] F1 engine tracking for GoogleSQL,HCM Dashboards,hkondreddy,hkondreddy,FEATURE_REQUEST,ACCEPTED,P2,2020-01-24,3
+138679568,Need daily dated back up of the headcount_slot_total table in corp data store,HCM Data Mart,nvalluru,pmallireddy,FEATURE_REQUEST,FIXED,P2,2019-07-30,17
+139799942,Staffing Requests dev -  dimensions,HCM Data Mart,aghorai,zeljebbari,FEATURE_REQUEST,VERIFIED,P2,2019-08-21,69
+120019865,"[HCM Report] Negative Headcount Audit pipeline - Create pipelines for dev, staging, prod",HCM Dashboards,sofeeya,sofeeya,FEATURE_REQUEST,FIXED,P2,2018-11-26,58
+147003849,[Retrofit dashboard] UAT and Production Release,HCM Data Mart,hongyil,cacanindin,FEATURE_REQUEST,ACCEPTED,P2,2019-12-30,30
+135267275,Authorize headcount_slot_total view,HCM Data Mart,aghorai,aghorai,INTERNAL_CLEANUP,FIXED,P2,2019-06-14,0
+139056508,Add Team Tech Leads array to Consumption Layer Tables/Views - Tactical solution,HCM Data Mart,aghorai,sameerpatel,FEATURE_REQUEST,WILL_NOT_FIX,P1,2019-08-07,15
+128911279,[Report Name] Issue summary,HCM Dashboards,anupamai,anupamai,FEATURE_REQUEST,VERIFIER_ASSIGNED,P1,2019-03-19,63
+136259747,HCM Usage dashboard - Job family and traffic source have unknown/null values,HCM Dashboards,hkondreddy,zeljebbari,BUG,VERIFIED,P3,2019-06-28,213
+134950355,[Data Mart] New Table - Pez Activity Service API,HCM Data Mart,,sameerpatel,FEATURE_REQUEST,NEW,P3,2019-06-10,4
+147139703,[Data Mart] Grants technical bugs,HCM Data Mart,pmallireddy,nidhishk,BUG,FIXED,P4,2020-01-03,7
+115572794,[HCM Report] Replace 'Manager' filter with 'Supervisory Chain' one,HCM Dashboards,epahal,apisarchyk,FEATURE_REQUEST,FIXED,P2,2018-09-12,2
+122449338,[HCM Report] Create draft version of Negative Deepdive report,HCM Dashboards,rohjain,alvinying,FEATURE_REQUEST,FIXED,P1,2019-01-07,60
+133848143,[Data Mart] Need to flip Exit HC and Negative HC to positive values.,HCM Data Mart,pmallireddy,sameerpatel,BUG,VERIFIED,P2,2019-05-29,2
+146924450,Dimension HCM Version Tables pipeline failure (UAT environment),HCM Data Mart,orazs,orazs,BUG,FIXED,P2,2019-12-27,6
+141128685,[Data Mart] ctrl_end_datetime set to '9998-12-31' in some tables,HCM Data Mart,hongyil,mstockwell,BUG,ACCEPTED,P2,2019-09-16,92
+146663138,[Data Mart] NULL in ctrl columns - Hcm_Reporting_Processed.headcount_allocation_history,HCM Data Mart,pmallireddy,nidhishk,INTERNAL_CLEANUP,FIXED,P2,2019-12-20,21
+133228117,Ability to bulk export dated HC allocation snapshot tables from BQ to Plx,HCM Data Mart,aghorai,sunilsaxena,FEATURE_REQUEST,FIXED,P2,2019-05-21,13
+129060508,[HCM Report] Productionize Moma verification cycle report,HCM Dashboards,epahal,epahal,FEATURE_REQUEST,FIXED,P3,2019-03-21,4
+137572476,[Data Mart] Granting access to planing du dev team for hcm consumption view in UAT and PROD,HCM Data Mart,lmallavarapu,lmallavarapu,FEATURE_REQUEST,FIXED,P2,2019-07-15,10
+135991123,[Data Mart] Prod consumption job failed 25th June,HCM Data Mart,sunilsaxena,sunilsaxena,BUG,VERIFIED,P1,2019-06-25,0
+142250093,[Data Mart] Update plx views to include pipe delimiter in security filter,HCM Data Mart,mstockwell,mstockwell,BUG,VERIFIED,P2,2019-10-07,4
+148269887,[Loans + grants dash] - check that security access is enforced correctly and open up dash to Googlers,HCM Data Mart,mstockwell,zeljebbari,FEATURE_REQUEST,ACCEPTED,P3,2020-01-24,5
+133250437,[DataMart] Pre-prod layer: need to come up with a recommendation and definition,HCM Data Mart,alvinying,zeljebbari,PROCESS,WILL_NOT_FIX,P3,2019-05-21,24
+146441419,[Grants and location locking] PROD,HCM Data Mart,pmallireddy,zeljebbari,FEATURE_REQUEST,FIXED,P2,2019-12-17,24
+146637287,"ClarinetJobFailed: Pipeline ""PezCloudSQLtoBQ - headcount_slot_total"" failed to run.",HCM Production Bugs,hongyil,mdb.clarinet,BUG,FIXED,P1,2019-12-20,11
+148150691,New process for pushing changes via CL on dashboards,HCM Data Mart,chavisinghal,zeljebbari,PROCESS,ASSIGNED,P3,2020-01-22,5
+139800284,Loans PRD,HCM Data Mart,mstockwell,zeljebbari,FEATURE_REQUEST,FIXED,P2,2019-08-21,44
+130347481,[Verification Report] Fix failure due to ex-oogler,HCM Dashboards,epahal,epahal,BUG,FIXED,P1,2019-04-11,0
+140172330,Postmortem Doc for 28th August Failure,HCM Production Bugs,orazs,sunilsaxena,PROCESS,ACCEPTED,P2,2019-08-28,0
+141542042,Loans - testing and SIT plan,HCM Data Mart,orazs,zeljebbari,FEATURE_REQUEST,VERIFIED,P2,2019-09-24,83
+130827324,Build PLX tables for HCM Consumption Layer,HCM Data Mart,aghorai,aghorai,PROCESS,FIXED,P2,2019-04-18,33
+114131534,[Data Mart] Migrate/sunset peepsdash data mart,HCM Data Mart,,apisarchyk,FEATURE_REQUEST,NEW,P3,2018-09-05,258
+126780216,[Report Name] Calculation and detail of HC without Team/Product incorrect,HCM Dashboards,alvinying,alvinying,INTERNAL_CLEANUP,VERIFIED,P2,2019-03-01,90
+134379702,Invalid manager_id values in headcount_allocation_history table,HCM Data Mart,pmallireddy,orazs,BUG,FIXED,P3,2019-06-03,193
+117147165,[Data Mart] Task - Grant VIEW access to appropriate user groups before launch,HCM Data Mart,alvinying,alvinying,PROCESS,VERIFIED,P0,2018-10-02,97
+132170988,Migrate dashboards to Data Mart,HCM Data Mart,,zeljebbari,FEATURE_REQUEST,NEW,P3,2019-05-07,17
+120021435,[HCM Report] Negative Headcount Audit pipeline - Create Technical design doc,HCM Dashboards,sofeeya,sofeeya,FEATURE_REQUEST,FIXED,P2,2018-11-26,58
+130419108,Update Data Separator for Control Key column used across HCM tables,HCM Data Mart,pmallireddy,pmallireddy,INTERNAL_CLEANUP,ASSIGNED,P3,2019-04-12,228
+114227617,[HCM Report] Pez - SRT: LEFT OUTER or FULL OUTER JOIN,HCM Dashboards,alvinying,alvinying,PROCESS,VERIFIER_ASSIGNED,P3,2018-09-06,257
+134049164,"[HCM Report] Headcount and staffing dashboard - ""Staffing Trend"" chart isn't updating when we change the supervisory org filter",HCM Dashboards,hkondreddy,zeljebbari,BUG,VERIFIED,P2,2019-05-30,8
+144723492,[Data Mart] Update Loans and Intended Negative Columns in Historical headcount_allocation_snap Table,HCM Data Mart,pmallireddy,aghorai,INTERNAL_CLEANUP,FIXED,P2,2019-11-18,25
+147431886,[Data Mart] Good documentation of usage for automated utility,HCM Data Mart,,cacanindin,INTERNAL_CLEANUP,NEW,P3,2020-01-09,0
+132217959,[HCM Report] Add CC-Roll-Ups to HC & Staffing Request report,HCM Dashboards,alvinying,chichester,FEATURE_REQUEST,ASSIGNED,P3,2019-05-08,154
+128848144,[MOMA Verification SIT] 2019-02 cycle data has l0-l14 missing as of 3/18/2019 test run,HCM Dashboards,epahal,mraizada,INTERNAL_CLEANUP,VERIFIED,P2,2019-03-18,0
+145132175,[Master] [Retrofit dashboard] to new data mart,HCM Dashboards,hongyil,hongyil,FEATURE_REQUEST,ACCEPTED,P2,2019-11-25,63
+136169799,HC and staffing report - change column names,HCM Dashboards,hkondreddy,zeljebbari,FEATURE_REQUEST,VERIFIED,P2,2019-06-27,1
+136650888,[Data Mart] Increase data refresh frequency from Moma teams,HCM Data Mart,,alvinying,FEATURE_REQUEST,NEW,P3,2019-07-03,0
+114136055,[HCM Report] Profile & add to report the SR Target Level / Other Level Range,HCM Dashboards,alvinying,alvinying,FEATURE_REQUEST,VERIFIED,P3,2018-09-06,12
+133228198,[HCM Data Mart DQ Check],HCM Data Mart,sunilsaxena,sunilsaxena,FEATURE_REQUEST,ASSIGNED,P2,2019-05-21,0
+138658692,Verify row count of PLX tables with BQ snapshots,HCM Data Mart,aghorai,aghorai,INTERNAL_CLEANUP,VERIFIER_ASSIGNED,P2,2019-07-30,0
+139803039,Loans dashboards implementation,HCM Dashboards,mstockwell,zeljebbari,FEATURE_REQUEST,FIXED,P2,2019-08-21,120
+125888764,[HCM Report] Quota Exceeded in BQ Project - hcm-reporting-dev,HCM Dashboards,sameerpatel,sameerpatel,PROCESS,VERIFIED,P2,2019-02-22,88
+137081884,Internal Apps hcm-reporting-dremel,HCM Data Mart,nvalluru,vincentdao,PROCESS,VERIFIED,P1,2019-07-09,153
+148519800,[Data Mart] Usability Improvement - Create “Current” tables/views,HCM Data Mart,nidhishk,nidhishk,FEATURE_REQUEST,ASSIGNED,P4,2020-01-29,0
+129689419,Issue Summary: Cloud Tracker Ask - Use Pez Snapshot to derive Starts/Transfers/Exits,HCM Dashboards,zeljebbari,alvinying,FEATURE_REQUEST,ASSIGNED,P3,2019-04-01,84
+138446123,"Bug - Need Column rename in Consumption/Plx Tables/Views - field ""personb_preferred_last_name"" --> ""person_preferred_last_name""",HCM Data Mart,aghorai,sameerpatel,BUG,VERIFIED,P2,2019-07-26,36
+141122106,HCM DEV sync - Dependency Check and Duration Change,HCM Data Mart,ganeshprabhu,ganeshprabhu,BUG,WILL_NOT_FIX,P2,2019-09-16,66
+142413219,[Data Mart] Temporary PROD Access to HCM project datasets for Octopus SIT until Nov 15th,HCM Data Mart,sunilsaxena,sameerpatel,PROCESS,FIXED,P2,2019-10-09,1
+134061662,Google Headcount Planning - Phase 1: Sample Data,HCM Data Mart,varshinibala,varshinibala,PROCESS,VERIFIED,P2,2019-05-30,29
+148407821,[Data Mart] Preferred Name is null for Active Person Records,HCM Data Mart,zeljebbari,sameerpatel,BUG,ASSIGNED,P2,2020-01-27,1
+134139786,[HCM Report] Dremel Routing Error in Teams pipeline,HCM Dashboards,cviswanathan,alvinying,BUG,FIXED,P2,2019-05-31,63
+131711953,Verification for UAT jobs,HCM Data Mart,sunilsaxena,chavisinghal,PROCESS,FIXED,P2,2019-04-30,21
+137766839,Data Mart - HR API issue --> Manager Hier Fix,HCM Data Mart,sameerpatel,zeljebbari,BUG,VERIFIED,P2,2019-07-17,7
+133227270,Handle source data that's already versioned when creating CDC tables: generalize the Pez approach,HCM Data Mart,sunilsaxena,sunilsaxena,FEATURE_REQUEST,FIXED,P2,2019-05-21,205
+134153248,[Data Mart - Prod bug] Wrong FTE count in hcm-reporting.Hcm_Reporting_Processed.team_allocation_history table,HCM Data Mart,pmallireddy,zeljebbari,BUG,VERIFIED,P2,2019-05-31,13
+146923344,"ClarinetJobFailed: Pipeline ""Dimension HCM Version Tables"" failed to run.",HCM Production Bugs,,mdb.clarinet,BUG,WILL_NOT_FIX,P1,2019-12-27,6
+135682476,On call schedule - formal process,HCM Data Mart,zeljebbari,zeljebbari,PROCESS,FIXED,P3,2019-06-20,25
+134691838,Requirements for 8 year data retention policy after the employee leaves the company by type of data,HCM Data Mart,zeljebbari,zeljebbari,PROCESS,WILL_NOT_FIX,P3,2019-06-06,29
+146462800,Extract Grants and Location Locking related source tables from Pez.,HCM Data Mart,pmallireddy,pmallireddy,FEATURE_REQUEST,FIXED,P2,2019-12-18,23
+133868417,Create playbook for external UAT testing,HCM Data Mart,,zeljebbari,PROCESS,NEW,P3,2019-05-29,0
+139297341,[Data Mart] Remove Columns from Team Allocation History Table,HCM Data Mart,alvinying,aghorai,FEATURE_REQUEST,VERIFIED,P1,2019-08-12,8
+136565379,[Team allocations] Make it clear that Open HC data access follows Pez access,HCM Dashboards,cviswanathan,alvinying,FEATURE_REQUEST,VERIFIED,P3,2019-07-02,77
+117107183,[HCM Report] Update Scripts to use PEZ Prod Data,HCM Dashboards,epahal,epahal,FEATURE_REQUEST,FIXED,P2,2018-10-01,0
+132102935,[HCM Teams Report] remove FTE and TVC count from HCM Teams Dashboard,HCM Dashboards,alvinying,cviswanathan,INTERNAL_CLEANUP,VERIFIER_ASSIGNED,P3,2019-05-06,32
+136652139,Data Mart - Testing plan playbook,HCM Data Mart,sameerpatel,zeljebbari,PROCESS,VERIFIED,P2,2019-07-03,156
+133228234,Move Plx tables to Placer,HCM Data Mart,aghorai,sunilsaxena,FEATURE_REQUEST,ACCEPTED,P2,2019-05-21,209
+140433313,[Data Mart]  Sync uat and prod CL with latest CL across all jobs for HCM Reporting project,HCM Data Mart,hongyil,hongyil,INTERNAL_CLEANUP,FIXED,P2,2019-09-03,1
+120770871,[HCM Report] Reviewing Manager link missing username parameter,HCM Dashboards,alvinying,alvinying,BUG,VERIFIED,P2,2018-12-10,1
+134698005,[HCM Teams Report] Slow performance of dashboard,HCM Dashboards,cviswanathan,cviswanathan,BUG,VERIFIED,P2,2019-06-06,42
+115686618,[HCM Report] Remaining Hires/Requested Hires in Summary section of report and SUM of individual values in SR Detail sections do not match,HCM Dashboards,chavisinghal,apisarchyk,BUG,VERIFIED,P1,2018-09-13,1
+134094441,Transformation rules Pez transaction data --> modeling next sprint,HCM Data Mart,sameerpatel,zeljebbari,PROCESS,ASSIGNED,P3,2019-05-30,15
+147429083,[Data Mart] Discuss whether we should always version every source,HCM Data Mart,,cacanindin,INTERNAL_CLEANUP,NEW,P3,2020-01-09,0
+146999827,[Retrofit dashboard] Review Data Model with team and update based on feedback,HCM Data Mart,hongyil,zeljebbari,FEATURE_REQUEST,VERIFIED,P2,2019-12-30,0
+139187346,[Data Mart] Clean duplicate jobs/pipelines in HCM dev and Corp data store DEV relative to HCM,HCM Data Mart,hongyil,hongyil,INTERNAL_CLEANUP,FIXED,P2,2019-08-09,6
+134092728,Moma Verification Status Dashboard - Add a team filter,HCM Dashboards,hkondreddy,zeljebbari,FEATURE_REQUEST,ASSIGNED,P3,2019-05-30,132
+140027285,Team Allocation and Planning dashboard - Change bullet character between team level,HCM Dashboards,cviswanathan,zeljebbari,FEATURE_REQUEST,VERIFIED,P3,2019-08-26,3
+134083576,Review Pez Loans and grants design,HCM Data Mart,mstockwell,zeljebbari,FEATURE_REQUEST,FIXED,P2,2019-05-30,13
+147094371,[Data Mart] headcount_transaction_impact_history DataSourceKey missing loan_id,HCM Data Mart,pmallireddy,nidhishk,INTERNAL_CLEANUP,ASSIGNED,P4,2020-01-02,0
+144923394,SR discrepancy in negatives report (tab3),HCM Dashboards,orazs,orazs,BUG,FIXED,P1,2019-11-21,11
+139801785,Loans UX study (optional),HCM Data Mart,zeljebbari,zeljebbari,FEATURE_REQUEST,WILL_NOT_FIX,P2,2019-08-21,69
+147138088,[Grants and location locking] - Add grant create date field all the way to Plx view,HCM Data Mart,pmallireddy,zeljebbari,FEATURE_REQUEST,FIXED,P2,2020-01-03,14
+132169797,Grants and loans,HCM Data Mart,zeljebbari,zeljebbari,FEATURE_REQUEST,ACCEPTED,P1,2019-05-07,213
+134484792,[Teams Allocations report] Add KPI for Headcount w/o Team assignment,HCM Dashboards,,alvinying,FEATURE_REQUEST,NEW,P2,2019-06-04,127
+146637341,PezCloudSQLtoBQ - headcount_slot_total job failed,HCM Data Mart,,chirumamillam,BUG,WILL_NOT_FIX,P2,2019-12-20,0
+134481351,[HCM Report] headcount_reporting.finance_cc_ids returning error when queried - failing HCM dashboard workflow,HCM Dashboards,orazs,alvinying,BUG,FIXED,P2,2019-06-04,101
+139360339,[HCM Report] Issue summary  :  teams access request for temp pfowler@,HCM Dashboards,alvinying,ashk,PROCESS,FIXED,P3,2019-08-13,0
+117099773,[HCM Report] PEZ Cloud SQL for manager and Negative detailed data instead of aggregated snapshot,HCM Dashboards,chavisinghal,chavisinghal,FEATURE_REQUEST,WILL_NOT_FIX,P2,2018-10-01,232
+147371872,[Data Mart] Implement Data Quality Checks on PLX Tables,HCM Data Mart,mstockwell,aghorai,FEATURE_REQUEST,ACCEPTED,P2,2020-01-08,19
+132169798,Engage partners - TG,HCM Data Mart,zeljebbari,zeljebbari,PROCESS,FIXED,P1,2019-05-07,212
+133783893,Automated deployment using Rapid,HCM Data Mart,sunilsaxena,zeljebbari,PROCESS,ASSIGNED,P3,2019-05-28,0
+135191046,[Data Mart] Mdb group for release management and Clarinet viewer,HCM Data Mart,sunilsaxena,sunilsaxena,PROCESS,ASSIGNED,P3,2019-06-13,0
+135264284,Define logic for backfill Person dimensional attributes history from Workday,HCM Data Mart,mraizada,sameerpatel,PROCESS,ASSIGNED,P2,2019-06-14,209
+122448685,[HCM Report] Review teamsdash and propose potential migration plan,HCM Dashboards,,alvinying,PROCESS,NEW,P4,2019-01-07,143
+113125555,[Data Mart] Add job level to tables,HCM Data Mart,,apisarchyk,FEATURE_REQUEST,WILL_NOT_FIX,P2,2018-08-23,18
+134484496,[HCM Report] Update go/hcm-report site to link directly to new teams allocation report,HCM Dashboards,alvinying,alvinying,PROCESS,VERIFIED,P1,2019-06-04,8
+146641963,"ClarinetJobFailed: Pipeline ""PezCloudSQLtoBQ - headcount_slot_total"" failed to run.",HCM Production Bugs,zeljebbari,mdb.clarinet,BUG,VERIFIED,P1,2019-12-20,13
+147842809,[Data Mart] the current headcount summary numbers got a sudden drop on 2019-07-26 (25),HCM Data Mart,pmallireddy,hongyil,BUG,ASSIGNED,P2,2020-01-17,11
+135695730,"[HCM Team Allocations Report] Easily export the expanded list w/out having to click ""+"" for each row",HCM Dashboards,alvinying,zeljebbari,FEATURE_REQUEST,ASSIGNED,P2,2019-06-20,0
+146644016,[HCM Report] Loans Dashboard - Given Summary - Outstanding balance calc,HCM Dashboards,cviswanathan,mstockwell,BUG,VERIFIED,P1,2019-12-20,3
+147222231,Higher refresh frequency (twice/day) - Assess impact on dev and UAT before rolling out to PROD,HCM Data Mart,,zeljebbari,PROCESS,NEW,P3,2020-01-06,3
+137965816,[Data Mart] Grant 'Owner' Role of MDB data in Corp Data Store to three mdb groups,HCM Data Mart,hongyil,hongyil,FEATURE_REQUEST,FIXED,P3,2019-07-19,3
+147731243,[Data Mart] HCM Team Integration Analysis - OKR,HCM Data Mart,mstockwell,cacanindin,FEATURE_REQUEST,ACCEPTED,P2,2020-01-15,13
+130642795,Add 3 new fields to Team Hierarchy History Dim in Processed Layer,HCM Data Mart,aghorai,sameerpatel,FEATURE_REQUEST,VERIFIED,P1,2019-04-16,76
+132170987,v1.1 Table and column descriptions,HCM Data Mart,mstockwell,zeljebbari,FEATURE_REQUEST,WILL_NOT_FIX,P3,2019-05-07,49
+141195316,Get MAX ctrl_sor_extract_datetime column for HCM Intraday,HCM Data Mart,ganeshprabhu,ganeshprabhu,BUG,FIXED,P2,2019-09-17,65
+136178098,How do we treat interns in teams,HCM Data Mart,pmallireddy,zeljebbari,BUG,VERIFIED,P2,2019-06-27,4
+148531434,[Teams dashboard] Error when user add Cost Center roll up to the dashboard,HCM Dashboards,cviswanathan,alvinying,BUG,WILL_NOT_FIX,P2,2020-01-29,0
+113111083,[Data Mart] Create physical data model & data set for HC/Staffing reports,HCM Data Mart,chavisinghal,apisarchyk,FEATURE_REQUEST,FIXED,P2,2018-08-23,13
+146221036,[Data Mart] Clarify accounting how pending transfers should be accounted for in the Loan Giver,HCM Data Mart,,mstockwell,PROCESS,NEW,P2,2019-12-13,0
+118142858,[Data Mart] Identify optimal source tables and logic for gHire data,HCM Data Mart,zeljebbari,alvinying,FEATURE_REQUEST,VERIFIED,P2,2018-10-22,218
+147845155,[Data Mart] SR Summary with cost_center_code = 'DU_UNKNOWN',HCM Data Mart,pmallireddy,hongyil,BUG,WILL_NOT_FIX,P2,2020-01-17,12
+133347062,"[Data Mart] DQ Additional Logical Deletes, Duplicate, Ref Integrity Checks",HCM Data Mart,orazs,mraizada,FEATURE_REQUEST,ASSIGNED,P2,2019-05-22,188
+140568126,"[Data Mart] Clean all hcm tables in corp data store dev, except Admin",HCM Data Mart,hongyil,hongyil,INTERNAL_CLEANUP,FIXED,P2,2019-09-05,7
+132170215,Engage partners - Pez,HCM Data Mart,alvinying,zeljebbari,PROCESS,FIXED,P1,2019-05-07,92
+135682359,[Data Mart] Issue summary - HCM data refresh delayed on 06/20,HCM Data Mart,sunilsaxena,pmallireddy,FEATURE_REQUEST,FIXED,P3,2019-06-20,81
+136554016,Utility to Rollback a Job and all related tables that are updated.,HCM Data Mart,,sameerpatel,FEATURE_REQUEST,NEW,P3,2019-07-02,0
+138579419,Data Mart - stabilize the processes,HCM Data Mart,sunilsaxena,zeljebbari,PROCESS,VERIFIED,P2,2019-07-29,22
+148208293,[Data Mart] Evaluate support for BigQuery API calls,HCM Data Mart,sunilsaxena,alvinying,FEATURE_REQUEST,ASSIGNED,P2,2020-01-23,0
+146440615,[Grants and location locking] Dev,HCM Data Mart,pmallireddy,zeljebbari,FEATURE_REQUEST,VERIFIED,P2,2019-12-17,13
+148229542,[TeamAllocationHistory Plx table] - One time backfill to bring teams with no people assigned to them into the data mart,HCM Data Mart,pmallireddy,zeljebbari,FEATURE_REQUEST,ASSIGNED,P2,2020-01-23,6
+148270909,"ClarinetJobFailed: Pipeline ""Run PLX DQ Validation"" failed to run.",HCM Production Bugs,aghorai,mdb.clarinet,BUG,FIXED,P2,2020-01-24,3
+147609962,Moma Verification Status Dashboard is not up to date,HCM Dashboards,orazs,orazs,BUG,ACCEPTED,P2,2020-01-13,1
+148569748,"[HCM Report] When user does not have access, provide informational message to distinguish from a null result",HCM Dashboards,,shorwitz,FEATURE_REQUEST,WILL_NOT_FIX,P2,2020-01-30,0
+147759821,Update HCM g3 doc to reflect that data is updated daily at 10 AM EST / 7 AM PST,HCM Data Mart,zeljebbari,zeljebbari,INTERNAL_CLEANUP,VERIFIED,P2,2020-01-15,14
+133763020,[Data Mart] Document steps to address manual data quality fix's,HCM Data Mart,sameerpatel,sameerpatel,PROCESS,ASSIGNED,P3,2019-05-28,0
+142951924,[Data Mart] Issue summary : Fix all the dim jobs/tables in dev env,HCM Data Mart,aghorai,pmallireddy,FEATURE_REQUEST,ASSIGNED,P2,2019-10-18,0
+130365607,Issue summary: Migration of config changes from Corp Data Store Dev to Corp Data Store UAT,HCM Data Mart,sunilsaxena,chavisinghal,FEATURE_REQUEST,VERIFIER_ASSIGNED,P2,2019-04-11,40
+130807057,Current Ind and Deleted Ind should be boolean and set to true or false in Versioned/Processed Layer table,HCM Data Mart,aghorai,sameerpatel,INTERNAL_CLEANUP,VERIFIED,P2,2019-04-18,57
+140144656,[Data Mart] Issue summary : Enhance CDC to support intra day executions,HCM Data Mart,pmallireddy,pmallireddy,FEATURE_REQUEST,FIXED,P2,2019-08-28,105
+132451195,[Reporting - Negatives report] Negative diagnostics enhancement,HCM Dashboards,,zeljebbari,FEATURE_REQUEST,NEW,P2,2019-05-10,7
+132171248,Internal documentation & organization,HCM Data Mart,zeljebbari,zeljebbari,PROCESS,VERIFIED,P2,2019-05-07,212
+143493037,[Data Mart] HCM Planning - Octopus Manager Hierarchy View Update,HCM Data Mart,lmallavarapu,sameerpatel,FEATURE_REQUEST,FIXED,P2,2019-10-28,17
+136616884,Error in PLX View datauniverse_hcm_reporting.HeadcountTeamAllocationHistory,HCM Data Mart,aghorai,aghorai,BUG,VERIFIED,P1,2019-07-03,7
+147432886,[Data Mart] Comments code commenting in SQL code,HCM Data Mart,,cacanindin,FEATURE_REQUEST,NEW,P3,2020-01-09,0
+147421499,[Data Mart] Handling re-building of missing snap date,HCM Data Mart,,cacanindin,INTERNAL_CLEANUP,NEW,P1,2020-01-09,0
+137545282,Data Mart - Automated dev testing,HCM Data Mart,sunilsaxena,zeljebbari,PROCESS,ASSIGNED,P2,2019-07-15,134
+138429009,[HCM Dashboard] Production  - wrong CC access,HCM Dashboards,jonawan,adahl,INTERNAL_CLEANUP,VERIFIED,P2,2019-07-26,28
+115359045,[Data Mart] Merge Plx workflows -  HCM beta & headcount/staffing reporting,HCM Data Mart,epahal,alvinying,FEATURE_REQUEST,FIXED,P3,2018-09-11,64
+147498175,"[HCM Report] Grants UAT Piper Checkin UAT - PLX dashboards, PLX scripts, PLX tables & PLX views",HCM Dashboards,orazs,chavisinghal,PROCESS,ACCEPTED,P2,2020-01-10,19
+137660449,Export the history data in Plx beginning from Jan 2018,HCM Data Mart,aghorai,zeljebbari,PROCESS,FIXED,P2,2019-07-16,13
+116226112,[HCM Report] The values in current snapshot from Headcount Trend don't match values in the rest of the report,HCM Dashboards,epahal,apisarchyk,BUG,FIXED,P2,2018-09-20,4
+131839174,Pez Dremel table access to Corp data store UAT and PROD,HCM Data Mart,chavisinghal,sunilsaxena,PROCESS,VERIFIER_ASSIGNED,P1,2019-05-02,19
+129674963,Suspend fetching from hiring_reporting.job_category to complete headcount workflow,HCM Data Mart,orazs,alvinying,PROCESS,FIXED,P2,2019-04-01,50
+132274180,Solution to rebuild history from the last stable state - focus on Pez first (using Cloud SQL),HCM Data Mart,sunilsaxena,sunilsaxena,FEATURE_REQUEST,ASSIGNED,P2,2019-05-08,212
+139366680,[Data Mart] terminated_hc is wrong and need to be hidden from the consumption view,HCM Data Mart,mstockwell,alvinying,BUG,VERIFIED,P2,2019-08-13,14
+123431450,[Data Mart] Replace decoding tables from hiring_reporting with more reliable source,HCM Data Mart,orazs,samanthapace,BUG,FIXED,P2,2019-01-26,24
+132167665,v1 Table and column descriptions,HCM Data Mart,alvinying,zeljebbari,FEATURE_REQUEST,VERIFIED,P2,2019-05-07,175
+135187360,Move legacy code directory to HCM data universe,HCM Dashboards,alvinying,zeljebbari,INTERNAL_CLEANUP,ASSIGNED,P3,2019-06-13,103
+135472260,[HCM Report] Display field definitions on HC & Staffing dashboard,HCM Dashboards,zeljebbari,alvinying,FEATURE_REQUEST,ASSIGNED,P3,2019-06-17,0
+147421100,[Data Mart] More user-friendly Consumption layer,HCM Data Mart,cacanindin,cacanindin,INTERNAL_CLEANUP,FIXED,P1,2020-01-09,20
+117108161,[HCM Report] Make column display name unique and consistent in data source editor,HCM Dashboards,,alvinying,INTERNAL_CLEANUP,NEW,P3,2018-10-01,241
+146520065,[Data Mart] Specify an alternative name 'CorpServicesHrBatchReadProtoServer' when connecting to the Hr-API Batch Read Server.,HCM Data Mart,orazs,rahulga,INTERNAL_CLEANUP,FIXED,P1,2019-12-18,40
+130046383,Build hc alloc and team alloc history fact tables,HCM Data Mart,pmallireddy,pmallireddy,PROCESS,FIXED,P2,2019-04-05,56
+138933465,Data Mart - Higher refresh frequency,HCM Data Mart,sunilsaxena,zeljebbari,FEATURE_REQUEST,ASSIGNED,P2,2019-08-05,113
+138938109,Data Mart - HeadcountTeamAllocationHistory view,HCM Data Mart,zeljebbari,zeljebbari,FEATURE_REQUEST,VERIFIED,P2,2019-08-05,7
+146636953,PezCloudSQLtoBQ - headcount_slot_total has failed due to memory exceeding,HCM Data Mart,pmallireddy,orazs,BUG,FIXED,P1,2019-12-20,1
+147795193,"ClarinetJobFailed: Pipeline ""PezCloudSQLtoBQ - Landing"" failed to run.",HCM Production Bugs,pmallireddy,mdb.clarinet,BUG,FIXED,P2,2020-01-16,0
+131416048,Update team assignment allocation % logic in HCM data mart,HCM Data Mart,mstockwell,alvinying,FEATURE_REQUEST,VERIFIED,P1,2019-04-26,63
+113603326,[HCM Report]  Define logic to resolve  Many to Many relations between SRs and Job Applications,HCM Dashboards,skaruturi,apisarchyk,FEATURE_REQUEST,WILL_NOT_FIX,P3,2018-08-30,131
+143272972,HC - Add Slot Create Date as DATE Type to Consumption Snapshot table and Plx Tables/Views,HCM Data Mart,pmallireddy,sameerpatel,FEATURE_REQUEST,VERIFIED,P2,2019-10-24,50
+134395561,Planning Dashboard - action plan,HCM Data Mart,zeljebbari,zeljebbari,FEATURE_REQUEST,FIXED,P2,2019-06-03,42
+115427026,"[HCM Report] Cost Centers/Managers with 0 HC are available in PEZ, but missing in HCM Report",HCM Dashboards,kevinhung,apisarchyk,BUG,WILL_NOT_FIX,P4,2018-09-12,11
+137294501,Data Mart v1.2 - clarify and prioritize features to add,HCM Data Mart,zeljebbari,zeljebbari,INTERNAL_CLEANUP,FIXED,P2,2019-07-11,18
+135918569,[Data Mart] Set up DQ jobs as dependency,HCM Data Mart,sunilsaxena,sunilsaxena,PROCESS,VERIFIER_ASSIGNED,P2,2019-06-24,2
+120281086,[HCM Report] UPH DQ dashboard UI sync with HCM reports,HCM Dashboards,mstockwell,alvinying,FEATURE_REQUEST,VERIFIED,P2,2018-11-30,38
+132170567,Horizontal Labels discussions,HCM Data Mart,,zeljebbari,FEATURE_REQUEST,WILL_NOT_FIX,P1,2019-05-07,212
+142743725,[Data Mart] SRT - Column data rename,HCM Data Mart,ganeshprabhu,sameerpatel,FEATURE_REQUEST,VERIFIED,P2,2019-10-15,24
+138292253,"Bug - when person does not have a Manger, we expect that the Depth is 0 instead of Null and Manager Level 1 fields should be populated with Person details",HCM Data Mart,aghorai,sameerpatel,BUG,VERIFIED,P1,2019-07-24,2
+135178660,"[Data Mart] Definition and testing of ""terminated_hc"", ""exit_hc"" etc",HCM Data Mart,sameerpatel,alvinying,PROCESS,ASSIGNED,P2,2019-06-13,0
+135485909,[Data Mart] DQ Validations for additional tables/layers,HCM Data Mart,orazs,mraizada,FEATURE_REQUEST,ASSIGNED,P2,2019-06-17,162
+135918045,[Data Mart] Issue summary - Parent Team ID is incorrect in Dim,HCM Data Mart,aghorai,sameerpatel,FEATURE_REQUEST,VERIFIED,P1,2019-06-24,7
+131117590,Clarinet dependency set up,HCM Data Mart,sunilsaxena,sunilsaxena,PROCESS,FIXED,P2,2019-04-23,28
+133228972,[Data Mart] Design a smart utility to automate data backfill for consumption layer,HCM Data Mart,aghorai,sunilsaxena,PROCESS,VERIFIED,P2,2019-05-21,102
+128534441,[Moma verification SIT]  Moma verification - refresh frequency to be set,HCM Dashboards,mraizada,mraizada,INTERNAL_CLEANUP,VERIFIER_ASSIGNED,P2,2019-03-13,69
+136006310,"Add the ""lead"" field from TG dump, which helps users understand who's the lead of the team.",HCM Dashboards,cviswanathan,zeljebbari,FEATURE_REQUEST,WILL_NOT_FIX,P2,2019-06-25,0
+132495229,Dimension Processed job is failing in UAT,HCM Data Mart,sunilsaxena,sunilsaxena,BUG,FIXED,P2,2019-05-11,10
+133504509,Release Management process,HCM Data Mart,zeljebbari,zeljebbari,PROCESS,FIXED,P2,2019-05-24,10
+129854001,[HCM Report] Update SR trend dimension from daily to weekly,HCM Dashboards,epahal,epahal,FEATURE_REQUEST,VERIFIER_ASSIGNED,P3,2019-04-03,48
+119301856,[HCM Report] Headcount & Staffing report training slides,HCM Dashboards,alvinying,alvinying,PROCESS,VERIFIED,P2,2018-11-09,32
+137311761,[Data Mart] Add additional levels to team_hierarchy_history dimension table,HCM Data Mart,pmallireddy,pmallireddy,FEATURE_REQUEST,FIXED,P2,2019-07-11,33
+147596410,Make DU_NA more user friendly and update dashboard logic accordingly,HCM Data Mart,nidhishk,zeljebbari,PROCESS,ASSIGNED,P2,2020-01-13,16
+136259753,Run HCM Plx workflows using a group to avoid single point of failure,HCM Dashboards,hongyil,zeljebbari,PROCESS,ACCEPTED,P2,2019-06-28,145
+147363027,[Data Mart] Issue summary : ctrl_person_id should be -1 for historical pez snapshot summary data in hc fact table,HCM Data Mart,pmallireddy,pmallireddy,FEATURE_REQUEST,ASSIGNED,P2,2020-01-08,0
+146677051,"ClarinetJobFailed: Pipeline ""PezCloudSQLtoBQ - headcount_slot_total"" failed to run.",HCM Production Bugs,sunilsaxena,mdb.clarinet,BUG,FIXED,P2,2019-12-20,19
+133329815,[DataMart Metrics - b/132170530] Define data quality score definition,HCM Data Mart,mstockwell,zeljebbari,PROCESS,ACCEPTED,P2,2019-05-22,188
+133225667,Profile TG data for scenarios that new CDC or backfill need to handle,HCM Data Mart,pmallireddy,alvinying,PROCESS,VERIFIED,P1,2019-05-21,37
+146553765,[Data Mart] Technical Docs - HCM Logical Data Model,HCM Data Mart,nidhishk,nidhishk,INTERNAL_CLEANUP,FIXED,P4,2019-12-19,11
+144278835,[Data Mart] Consumption Layer Snap Tables - change Inner Joins to Left Outer Joins,HCM Data Mart,pmallireddy,sameerpatel,BUG,VERIFIED,P2,2019-11-11,32
+141569919,[HCM Report] Staffing Request Summary and Detail,HCM Dashboards,mohb,mohb,FEATURE_REQUEST,FIXED,P3,2019-09-24,69
+146441532,[Grants and location locking] UAT,HCM Data Mart,pmallireddy,zeljebbari,FEATURE_REQUEST,VERIFIED,P2,2019-12-17,22
+130640254,Issue summary:  Default Dim values of -1 and -2 need the code values prefixed with DU_,HCM Data Mart,aghorai,sameerpatel,INTERNAL_CLEANUP,VERIFIER_ASSIGNED,P2,2019-04-16,34
+115549788,[HCM Report] Understated value for 'Negative' metric due to pre-aggregation in Pez export,HCM Dashboards,alvinying,apisarchyk,FEATURE_REQUEST,WILL_NOT_FIX,P3,2018-09-12,274
+135763346,"Add ""lead"" field to PLX table",HCM Dashboards,cviswanathan,mariakim,FEATURE_REQUEST,VERIFIED,P2,2019-06-21,6
+138631628,"ClarinetJobFailed: Pipeline ""BQ to PLX HCM Historical Snapshot Headcount Allocation PROD - On Demand"" failed to run.",HCM Data Mart,shankarboddu,shankarboddu,BUG,WILL_NOT_FIX,P1,2019-07-30,0
+146164329,[Data Mart] Loan id logic in headcount_allocation_history,HCM Data Mart,pmallireddy,mstockwell,BUG,FIXED,P1,2019-12-12,5
+145804614,Define logic for backfill Pops Cost Center Hier History from PEz backend tables,HCM Data Mart,zeljebbari,sameerpatel,PROCESS,ASSIGNED,P2,2019-12-06,34
+115410088,[Data Mart] Add Job Category (Role) to pipeline & report,HCM Data Mart,epahal,alvinying,FEATURE_REQUEST,VERIFIED,P2,2018-09-11,1
+137766688,Update View Definition for Team_Hierarchy_cur & _hist to include levels 13~20 in BQ Consumption,HCM Data Mart,aghorai,sameerpatel,FEATURE_REQUEST,VERIFIED,P2,2019-07-17,2
+135033363,Standardize the process to set up mdb groups for data universe,HCM Data Mart,sunilsaxena,zeljebbari,PROCESS,ACCEPTED,P2,2019-06-11,177
+147250471,[HCM Report] Add Cost Center levels to dashboard tables,HCM Dashboards,corinner,corinner,FEATURE_REQUEST,WILL_NOT_FIX,P2,2020-01-06,1
+129539332,Enable data access for Pez Admins,HCM Data Mart,alvinying,alvinying,FEATURE_REQUEST,VERIFIER_ASSIGNED,P2,2019-03-29,53
+142660943,[Data Mart] SRT - exclude fields from Plx Views,HCM Data Mart,aghorai,sameerpatel,INTERNAL_CLEANUP,VERIFIED,P1,2019-10-14,1
+144454484,HC fact table has incorrect negative history and loan dim values,HCM Data Mart,pmallireddy,sameerpatel,BUG,VERIFIED,P2,2019-11-14,29
+147254962,[HCM Report] Access to data in go/hcm-reports,HCM Dashboards,braddalton,braddalton,PROCESS,FIXED,P2,2020-01-07,1
+132169006,Data retention / GDPR design & implementation,HCM Data Mart,zeljebbari,zeljebbari,PROCESS,FIXED,P3,2019-05-07,69
+136551050,Data Mart - Attrition history,HCM Data Mart,,zeljebbari,FEATURE_REQUEST,NEW,P2,2019-07-02,157
+138116105,Bug - TVC's without a Team allocation are missing from HC Allocation Fact,HCM Data Mart,pmallireddy,sameerpatel,BUG,VERIFIED,P2,2019-07-22,5
+145811238,[Data Mart] Update Processed Layer Logic to handing -1 and -2 correctly across all Processed Layer Tables,HCM Data Mart,pmallireddy,sameerpatel,FEATURE_REQUEST,VERIFIED,P3,2019-12-06,52
+139801521,Loans TDD,HCM Data Mart,zeljebbari,zeljebbari,FEATURE_REQUEST,VERIFIED,P2,2019-08-21,69
+135552605,[Team allocations] Remove (parent) from Manager Hierarchy,HCM Dashboards,cviswanathan,cviswanathan,FEATURE_REQUEST,ASSIGNED,P3,2019-06-18,0
+137007546,Update tables diagram for the new HCM Data Mart tables,HCM Data Mart,orazs,zeljebbari,PROCESS,ASSIGNED,P3,2019-07-08,7
+135294164,[Data Mart] Pipeline not fully triggered on some days - long term fix,HCM Data Mart,sunilsaxena,zeljebbari,PROCESS,VERIFIED,P2,2019-06-15,5
+139081167,Planning Dashboard - Split FTE into 2 buckets FTE and Interns,HCM Dashboards,cviswanathan,zeljebbari,FEATURE_REQUEST,VERIFIER_ASSIGNED,P2,2019-08-07,8
+132162905,[Teams report] Enabling time_commitment,HCM Dashboards,cviswanathan,alvinying,FEATURE_REQUEST,WILL_NOT_FIX,P1,2019-05-07,14
+141891359,Update project for default_rows_dimension,HCM Data Mart,aghorai,aghorai,FEATURE_REQUEST,FIXED,P2,2019-10-01,10
+148158300,[Data Mart] Need a consumption table of headcount_planning.pez_user_access_prod,HCM Data Mart,nidhishk,hongyil,INTERNAL_CLEANUP,ASSIGNED,P2,2020-01-22,5
+133246817,Document pre-processed layer in Data Universe / Corp Data Store slides and docs,HCM Data Mart,sameerpatel,alvinying,PROCESS,ASSIGNED,P2,2019-05-21,199
+132166683,Team Graph history,HCM Data Mart,mstockwell,zeljebbari,FEATURE_REQUEST,ACCEPTED,P1,2019-05-07,251
+119217875,[HCM Report] Test security/access to HCM report with business users,HCM Dashboards,alvinying,apisarchyk,PROCESS,WILL_NOT_FIX,P2,2018-11-07,49
+113127117,"[HCM Report] Gather user feedback (Mgrs, Mgr of Mgrs)",HCM Dashboards,,apisarchyk,PROCESS,WILL_NOT_FIX,P3,2018-08-23,271
+137536104,Roadmap - update roadmap with FR that we have committed/not committed to yet,HCM Data Mart,zeljebbari,zeljebbari,INTERNAL_CLEANUP,ASSIGNED,P3,2019-07-15,14
+113899732,[Data Mart] Snapshot data is triple counted,HCM Data Mart,chavisinghal,epahal,BUG,FIXED,P2,2018-09-04,16
+119067001,[HCM Report] Routing testing - Compare with existing reports,HCM Dashboards,chavisinghal,alvinying,PROCESS,WILL_NOT_FIX,P2,2018-11-06,62
+134528802,[Team allocations report] Duplicate data in stacked bar chart when axis NOT using date dimension,HCM Dashboards,alvinying,alvinying,BUG,VERIFIED,P2,2019-06-05,2
+132083205,[Team allocation report v1] Multiple changes R2,HCM Dashboards,alvinying,alvinying,FEATURE_REQUEST,VERIFIED,P1,2019-05-06,24
+133331175,[DataMart Metrics - b/132170530] Communication of metrics to HCM product owner,HCM Data Mart,zeljebbari,zeljebbari,PROCESS,VERIFIED,P2,2019-05-22,36
+129344646,Issue summary - Remove tables form Pez Pipeline that are depricated,HCM Data Mart,chavisinghal,sameerpatel,INTERNAL_CLEANUP,VERIFIER_ASSIGNED,P3,2019-03-26,56
+132820537,[Ext] Rounding issues causing small mismatches,HCM Data Mart,pmallireddy,zeljebbari,BUG,VERIFIED,P3,2019-05-15,43
+131914366,[Data Mart Dev Issue] manager missing on certain date,HCM Data Mart,pmallireddy,alvinying,BUG,FIXED,P2,2019-05-03,102
+140165530,HRtoBQ_Landing job failed on 08/28/2019,HCM Data Mart,orazs,ronitkumar,FEATURE_REQUEST,VERIFIER_ASSIGNED,P1,2019-08-28,0
+135263126,Backfill Manager Hierarchy history from Pez,HCM Data Mart,,sameerpatel,PROCESS,WILL_NOT_FIX,P3,2019-06-14,31
+137543216,[Data Mart] Design a smart utility to automate data backfill from landing to processed layer,HCM Data Mart,aghorai,zeljebbari,PROCESS,ASSIGNED,P3,2019-07-15,21
+130234792,HC allocation History data testing,HCM Data Mart,pmallireddy,pmallireddy,PROCESS,VERIFIER_ASSIGNED,P3,2019-04-09,52
+113125019,[Teams Data] Refine job ladder to match CE groupings,HCM Data Mart,anthonyko,anthonyko,FEATURE_REQUEST,WILL_NOT_FIX,P3,2018-08-23,271
+146442715,Grants - testing and DQ,HCM Data Mart,orazs,zeljebbari,PROCESS,VERIFIED,P2,2019-12-17,41
+115523043,"[HCM Report] Add link to FAQ site, feedback, definitions (e.g. Negative calculation)",HCM Dashboards,alvinying,alvinying,FEATURE_REQUEST,WILL_NOT_FIX,P2,2018-09-12,260
+129718707,Build pipeline for processed layer dimension tables,HCM Data Mart,aghorai,aghorai,PROCESS,FIXED,P2,2019-04-02,49
+131898019,[Data Mart Dev Issue] manager_hierarchy_user_names missing leading and trailing '|',HCM Data Mart,pmallireddy,alvinying,BUG,VERIFIED,P2,2019-05-03,28
+132435745,Unique key violation in team_allocation_history,HCM Data Mart,pmallireddy,orazs,BUG,VERIFIED,P2,2019-05-10,34
+139801808,HCM Hub/Marketplace - start building the Plx collection,HCM Dashboards,zeljebbari,zeljebbari,FEATURE_REQUEST,ASSIGNED,P2,2019-08-21,34
+131722016,Duplicate table_id in Landing tables,HCM Data Mart,sunilsaxena,pmallireddy,BUG,FIXED,P3,2019-05-01,20
+138720703,"[Data Mart] ""${current_time}"" string appearing in corp-data-store.Admin.JobExecutionLog.execution_start_date",HCM Data Mart,sunilsaxena,mstockwell,INTERNAL_CLEANUP,ASSIGNED,P2,2019-07-31,118
+134094224,[HCM Report] New metric drop down: ratios (instead of sum of pct),HCM Dashboards,cviswanathan,alvinying,FEATURE_REQUEST,WILL_NOT_FIX,P3,2019-05-30,8
+138314160,Cleanup - Employee vs Non-Employee - Need to rename Metric col's in Plx Tables / Views,HCM Data Mart,mstockwell,sameerpatel,INTERNAL_CLEANUP,VERIFIED,P1,2019-07-24,6
+134621626,[HCM-report] Add data deletion request form in the footer of go/hcm-report,HCM Dashboards,alvinying,zeljebbari,PROCESS,VERIFIED,P2,2019-06-06,6
+134419482,Manager hierarchy dimension need to have Ctrl End date set to high water mark,HCM Data Mart,aghorai,aghorai,INTERNAL_CLEANUP,VERIFIED,P2,2019-06-03,11
+144786149,TIMESTAMP issue in intended negatives,HCM Data Mart,orazs,orazs,BUG,VERIFIED,P1,2019-11-19,13
+130907560,Build historical snapshot tables for Head Count fact,HCM Data Mart,pmallireddy,pmallireddy,PROCESS,FIXED,P2,2019-04-19,42
+148390580,[HCM Report] Update HCM dashboards to reflect that data is updated daily at 10 AM EST / 7 AM PST,HCM Dashboards,hongyil,cacanindin,INTERNAL_CLEANUP,FIXED,P2,2020-01-27,3
+137963689,Data Mart - BigQuery API limit investigation,HCM Data Mart,hongyil,zeljebbari,PROCESS,FIXED,P2,2019-07-19,118
+129947988,Sourcings Pez Snapshot data into Pez_Landing dataset,HCM Data Mart,chavisinghal,sameerpatel,FEATURE_REQUEST,VERIFIER_ASSIGNED,P3,2019-04-04,47
+137125077,DQ Issue HC Daily Load logic - Need to filter out DELETED records from Pez Person table,HCM Data Mart,pmallireddy,sameerpatel,BUG,VERIFIED,P1,2019-07-09,6
+132169719,"Higher refresh frequency (multiple scheduled refreshes / day, or much bigger)",HCM Data Mart,,zeljebbari,FEATURE_REQUEST,NEW,P3,2019-05-07,17
+137845694,Team allocation dashboard - Table that shows team allocation by a manager's direct reports (including dotted line reports),HCM Dashboards,,zeljebbari,FEATURE_REQUEST,NEW,P3,2019-07-18,83
+117147122,[HCM Report] User could only see direct report HC and SR,HCM Dashboards,epahal,alvinying,BUG,FIXED,P1,2018-10-02,0
+133247094,Augment generic attributes in existing Admin tables to capture usage/purpose by a Project.,HCM Data Mart,sunilsaxena,sameerpatel,PROCESS,ASSIGNED,P3,2019-05-21,0
+115383078,[Data Mart] Set SQL Dialect explicitly in scripts (GoogleSQL becomes default in Dremel CLI on 9/30/2018),HCM Data Mart,epahal,alvinying,PROCESS,WILL_NOT_FIX,P4,2018-09-11,125
+140300986,[Data Mart] Grant access to xuqi for UAT landing,HCM Data Mart,sunilsaxena,sunilsaxena,PROCESS,FIXED,P2,2019-08-30,4
+134139837,[HCM Report] Define support model for legacy (Plx) pipeline and dashboard,HCM Dashboards,alvinying,alvinying,PROCESS,WILL_NOT_FIX,P2,2019-05-31,60
+137209579,Team Allocaiton is missing Teams with no Users,HCM Data Mart,pmallireddy,sameerpatel,BUG,VERIFIED,P1,2019-07-10,5
+143951391,Data Mart staffing Request tables - Missing Staffer & Original Requester preferred name in the SR tables and views,HCM Data Mart,ganeshprabhu,zeljebbari,BUG,FIXED,P3,2019-11-05,42
+114126356,[Data Mart] - Add Pez-based ACL to tables,HCM Data Mart,epahal,apisarchyk,FEATURE_REQUEST,FIXED,P1,2018-09-05,375
+138312554,Cleanup - Employee vs Non-Employee - Need to rename Metric col's in Processes/Consumption tables,HCM Data Mart,pmallireddy,sameerpatel,INTERNAL_CLEANUP,VERIFIED,P1,2019-07-24,2
+138385947,Dashboard table columns - document and rename columns as needed,HCM Dashboards,cviswanathan,zeljebbari,INTERNAL_CLEANUP,ACCEPTED,P2,2019-07-25,47
+145816628,[Data Mart] Land Pez Delegate access data (for Loans dashboard),HCM Data Mart,nidhishk,alvinying,PROCESS,FIXED,P2,2019-12-06,38
+147291845,[Data Mart] Slot History report,HCM Data Mart,nidhishk,nidhishk,FEATURE_REQUEST,VERIFIER_ASSIGNED,P2,2020-01-07,2
+132170989,Sites (partner facing),HCM Data Mart,alvinying,zeljebbari,FEATURE_REQUEST,VERIFIED,P1,2019-05-07,51
+144429155,[Data Mart] Remove the dependency from HC Allocation History PreProcessed and Team Allocation History PreProcessed,HCM Data Mart,hongyil,sunilsaxena,INTERNAL_CLEANUP,FIXED,P2,2019-11-13,29
+115764465,[HCM Report] Initial Headcount & Staffing report UX study,HCM Dashboards,alvinying,alvinying,PROCESS,FIXED,P3,2018-09-14,103
+148406145,[Data Mart] Pull Slot History for GCP provided list of Slot Ids,HCM Data Mart,nidhishk,alvinying,PROCESS,FIXED,P2,2020-01-27,1
+134091206,[HCM Report] Enable support for Pez delegate access,HCM Dashboards,nidhishk,alvinying,FEATURE_REQUEST,ACCEPTED,P2,2019-05-30,244
+133818237,[Data Mart] Issue summary : Back fill historical data in PROD,HCM Data Mart,pmallireddy,pmallireddy,FEATURE_REQUEST,FIXED,P2,2019-05-29,2
+134919430,[Data Mart] New structure to accomodate Time Commitment.,HCM Data Mart,pmallireddy,sameerpatel,FEATURE_REQUEST,VERIFIED,P2,2019-06-10,17
+134081033,[Data Mart] Build automated Data Quality checks for HCM data mart,HCM Data Mart,orazs,zeljebbari,PROCESS,VERIFIED,P2,2019-05-30,28
+148229259,[TeamAllocationHistory Plx table] - Code change to bring teams with no people assigned to them into the data mart,HCM Data Mart,pmallireddy,zeljebbari,FEATURE_REQUEST,ASSIGNED,P2,2020-01-23,5
+139183947,"[Data Mart] DQ - Critical failure and Add ""Landed_Missing_PreviousDayVersioned"" rule as a critical rule for Workday.persons -- and add holding pipeline if there is issue found in today's load",HCM Data Mart,orazs,mraizada,FEATURE_REQUEST,FIXED,P2,2019-08-09,20
+145521962,[Data Mart] 20191202 snapshot duplicated,HCM Data Mart,pmallireddy,alvinying,BUG,VERIFIER_ASSIGNED,P1,2019-12-02,0
+134778948,[Data Mart] iv-d cell in PCR,HCM Data Mart,sunilsaxena,sunilsaxena,PROCESS,VERIFIED,P2,2019-06-07,4
+113539370,[Data Mart] Fields in headcount_reporting.StaffingRequest currently populated with IDs instead of values,HCM Data Mart,epahal,epahal,BUG,FIXED,P3,2018-08-30,12
+138444332,Data Mart - Update security views for Team allocation tables - UAT and prod,HCM Data Mart,aghorai,zeljebbari,PROCESS,VERIFIED,P2,2019-07-26,27
+140019175,#Effort type in go/worksdash - estimate effort and time,HCM Dashboards,hkondreddy,zeljebbari,FEATURE_REQUEST,VERIFIED,P2,2019-08-26,134
+134947357,[HCM Report] - Pez Grants Report,HCM Dashboards,mstockwell,mstockwell,FEATURE_REQUEST,VERIFIED,P2,2019-06-10,231
+135740517,[Data Mart] Google HC View Requirements,HCM Data Mart,sameerpatel,sameerpatel,FEATURE_REQUEST,VERIFIED,P1,2019-06-21,7
+146228295,[Loans dash] Small bugs in prod,HCM Dashboards,cviswanathan,zeljebbari,BUG,VERIFIED,P2,2019-12-13,5
+128533036,HC double-counted in HC & Staffing Progress report,HCM Dashboards,epahal,alvinying,BUG,VERIFIER_ASSIGNED,P1,2019-03-13,68
+135265221,Define logic for Manager hierarchy history from Workday,HCM Data Mart,,sameerpatel,PROCESS,WILL_NOT_FIX,P3,2019-06-14,31
+122449931,[HCM Report] Implement TTL on candidate data per updated PDD,HCM Dashboards,epahal,alvinying,FEATURE_REQUEST,FIXED,P1,2019-01-07,9
+137045943,Missing HCM Data Mart data,HCM Data Mart,zeljebbari,zeljebbari,BUG,VERIFIED,P1,2019-07-08,7
+119102402,[Data Mart] Add report category to HCM reports usage report & fix bugs,HCM Data Mart,orazs,alvinying,FEATURE_REQUEST,VERIFIED,P2,2018-11-06,94
+120769111,[Data Mart] HCM Prod workflow failed due to upstream table error,HCM Data Mart,epahal,alvinying,BUG,VERIFIED,P1,2018-12-10,0
+134499961,[Data Mart] Change headcount allocation history to reflect H/M/L assignment types and new 4-point scale calculation,HCM Data Mart,pmallireddy,alvinying,PROCESS,VERIFIED,P1,2019-06-04,27
+144032933,"[Data Mart] Landing Tables for Dremel sources TG, SRT, PEZ Dremel Running Twice",HCM Data Mart,sunilsaxena,aghorai,BUG,VERIFIED,P2,2019-11-06,30
+147497960,"[HCM Report] Collection of our data assets - PLX dashboards, PLX scripts, PLX tables & PLX views",HCM Dashboards,chavisinghal,chavisinghal,PROCESS,ACCEPTED,P2,2020-01-10,18
+139055142,[Data Mart] Accuracy of employee/manager/direct/VP/SVP flag,HCM Data Mart,pmallireddy,alvinying,BUG,FIXED,P2,2019-08-07,6
+136554769,Document Logic to handle Inserting a missing days Fact.,HCM Data Mart,,sameerpatel,FEATURE_REQUEST,NEW,P3,2019-07-02,0
+138197621,"[Data Mart] To investigate Permissions for project ""Corp Data Store UAT""",HCM Data Mart,nvalluru,hongyil,INTERNAL_CLEANUP,FIXED,P3,2019-07-23,6
+132685278,Issue summary - Rename Views in Corp Data Store Dev - Dimensions_Consumption,HCM Data Mart,aghorai,sameerpatel,INTERNAL_CLEANUP,FIXED,P2,2019-05-14,2
+136090053,[Data Mart] Issue summary - DataType incorrect for Ctrl SOR Extract Datetime,HCM Data Mart,zeljebbari,sameerpatel,INTERNAL_CLEANUP,ASSIGNED,P2,2019-06-26,163
+143533538,[Data Mart] HCM - Workday - Persons data - add fields to source from HR API,HCM Data Mart,aghorai,mraizada,FEATURE_REQUEST,VERIFIED,P2,2019-10-29,50
+114127689,[Data Mart] Add Pez Open Headcount to Teams tables,HCM Data Mart,epahal,apisarchyk,FEATURE_REQUEST,WILL_NOT_FIX,P2,2018-09-05,254
+135200658,"[Data Mart] Location, CC Hier and Job Family mismatch between Pez and PV",HCM Data Mart,orazs,sameerpatel,BUG,ASSIGNED,P2,2019-06-13,166
+119101355,[Data Mart] Create data lineage diagram for HCM & Teams reports,HCM Data Mart,orazs,alvinying,PROCESS,VERIFIED,P2,2018-11-06,94
+139798471,Staffing Requests dev - Facts,HCM Data Mart,pmallireddy,zeljebbari,FEATURE_REQUEST,VERIFIED,P2,2019-08-21,69
+134826372,[Data Mart] Changing the permission of table headcount_reporting.PezUserCostCenterAccess,HCM Data Mart,alvinying,sunilsaxena,PROCESS,VERIFIED,P2,2019-06-08,2
+143952431,[Planning DU - Octopus SIT] HCM Planning - Octopus Headcount Allocaiton View Update,HCM Data Mart,lmallavarapu,sameerpatel,FEATURE_REQUEST,VERIFIED,P2,2019-11-05,7
+129694373,Move Data from HCM DEV to Corp Data Store,HCM Data Mart,pmallireddy,sunilsaxena,PROCESS,FIXED,P2,2019-04-01,60
+133225308,Create requirements on Pez transaction data,HCM Data Mart,alvinying,alvinying,PROCESS,ACCEPTED,P2,2019-05-21,199
+138114237,Bug - 3 Employees that are Pending Transfers are missing Transfer Out record,HCM Data Mart,pmallireddy,sameerpatel,BUG,ASSIGNED,P3,2019-07-22,172
+136584068,Data Mart - Data type is still float vs numeric which could cause rounding issues,HCM Data Mart,pmallireddy,zeljebbari,BUG,VERIFIED,P3,2019-07-02,13
+145987193,[Data Mart] Create Pre-Prod environment for Corp Data Store and HCM,HCM Data Mart,rayyang,sunilsaxena,FEATURE_REQUEST,ASSIGNED,P3,2019-12-10,42
+132167666,Technical operations / support,HCM Data Mart,aghorai,zeljebbari,PROCESS,VERIFIED,P3,2019-05-07,45
+142477686,"HCM Reporting pipeline-""Dimension PreProcessed"" dependency issue & long run",HCM Data Mart,orazs,shankarboddu,BUG,FIXED,P1,2019-10-10,14
+136677564,Decision on handling Numeric datatype in Plx dataset,HCM Data Mart,,sameerpatel,BUG,NEW,P2,2019-07-03,146
+136088646,[Data Mart] Issue summary - Manager User Name incorrect in Team Allocation Snap,HCM Data Mart,aghorai,sameerpatel,BUG,VERIFIED,P1,2019-06-26,16
+135919397,"[Data Mart] Need to load missing Teams data - Leads, Owners, Delegates, and other Dim fields",HCM Data Mart,aghorai,sameerpatel,FEATURE_REQUEST,VERIFIED,P2,2019-06-24,84
+124511323,Requesting teams access for job-temp-google-technical-writer,HCM Data Mart,,sloper,FEATURE_REQUEST,WILL_NOT_FIX,P2,2019-02-15,94
+132170155,Peeps/teams dash turn down,HCM Data Mart,alvinying,zeljebbari,FEATURE_REQUEST,ASSIGNED,P2,2019-05-07,212
+134585407,Drop all control columns from consumption layer / Do we need a backfil?,HCM Data Mart,sunilsaxena,zeljebbari,INTERNAL_CLEANUP,VERIFIED,P3,2019-06-05,40
+117234435,[Data Mart] Effort estimation - loading from Spanner to CNS,HCM Data Mart,chavisinghal,alvinying,PROCESS,WILL_NOT_FIX,P2,2018-10-03,96
+128316336,Remove staffing_request.headcount_allocation_note (duplicative alias of HeadcountAllocationDetails),HCM Dashboards,hkondreddy,alvinying,INTERNAL_CLEANUP,VERIFIED,P3,2019-03-11,95
+144620099,[Data Mart] Inventory of Final HCM base tables and Security views,HCM Data Mart,hongyil,sunilsaxena,FEATURE_REQUEST,ACCEPTED,P2,2019-11-16,27
+137800162,"[Team allocations] Add dimension & filter for ""team (hashtag) type""",HCM Dashboards,cviswanathan,alvinying,FEATURE_REQUEST,VERIFIED,P2,2019-07-18,55
+148408969,[Data Mart] HCM Planning - Octopus Manager Hierarchy View Update - Jan 2020,HCM Data Mart,lmallavarapu,sameerpatel,FEATURE_REQUEST,ASSIGNED,P2,2020-01-28,1
+135554890,[Usage dashboard] Visit number incorrectly showing 0 for some Data Mart users,HCM Dashboards,hkondreddy,alvinying,BUG,WILL_NOT_FIX,P3,2019-06-18,9
+141678896,[Backlog] Add Job Role from Pez into the data mart,HCM Data Mart,sameerpatel,zeljebbari,FEATURE_REQUEST,FIXED,P2,2019-09-26,7
+147611363,TG tags PRD - storage in the data mart,HCM Data Mart,alvinying,zeljebbari,FEATURE_REQUEST,ASSIGNED,P2,2020-01-13,15
+147000321,[Retrofit dashboard] Create scripts (view/tables) from approved data model,HCM Data Mart,hongyil,zeljebbari,FEATURE_REQUEST,FIXED,P2,2019-12-30,29
+115420621,"[HCM Report] Current HC, Committed HC, Target HC don't match between PEZ and HCM Report for Data Works CC",HCM Dashboards,apisarchyk,apisarchyk,BUG,VERIFIED,P1,2018-09-11,2
+135994199,[Data Mart] Issue summary - Manager Preferred Name is incorrect in Dim - Person_History,HCM Data Mart,aghorai,sameerpatel,FEATURE_REQUEST,VERIFIED,P1,2019-06-25,17
+147748229,[Worksdash] Open HC values are misleading,HCM Dashboards,orazs,hkondreddy,BUG,VERIFIED,P2,2020-01-15,1
+137946936,Data Mart - UAT and Prod internal view cleanup,HCM Data Mart,aghorai,zeljebbari,INTERNAL_CLEANUP,FIXED,P3,2019-07-19,10
+133407682,[Data Mart] DQ - Add Percent metric validation for Team Allocation metrics,HCM Data Mart,orazs,mraizada,FEATURE_REQUEST,FIXED,P2,2019-05-23,113
+147431818,[Data Mart] Production bugs: communication strategy to customers (standard process for the whole data universe),HCM Data Mart,,cacanindin,FEATURE_REQUEST,NEW,P3,2020-01-09,0
+147362142,[Data Mart] Issue summary - Validate the CDC framework for ctrl_start_datetime and ctrl_end_datetime values,HCM Data Mart,pmallireddy,pmallireddy,FEATURE_REQUEST,ASSIGNED,P2,2020-01-08,0
+133332297,"[DataMart Metrics - b/132170530] Refine how we track internal engagement, adoption and retention usage metrics",HCM Data Mart,hkondreddy,zeljebbari,PROCESS,VERIFIED,P2,2019-05-22,36
+132171088,Engage partners - Spend mgmt working group,HCM Data Mart,mstockwell,zeljebbari,PROCESS,WILL_NOT_FIX,P2,2019-05-07,212
+147432160,[Data Mart] Impact analysis for chaging dated table to one time partition table,HCM Data Mart,,cacanindin,FEATURE_REQUEST,NEW,P3,2020-01-09,0
+144414846,Dimension HCM PreProcessed  failed,HCM Data Mart,grajamanickam,chirumamillam,BUG,FIXED,P2,2019-11-13,29
+148327716,"ClarinetJobFailed: Pipeline ""PezCloudSQLtoBQ - Landing"" failed to run.",HCM Production Bugs,ronitkumar,mdb.clarinet,BUG,FIXED,P2,2020-01-25,3
+148459049,[Data Mart] HCM Team Integration Analysis - Buganizer,HCM Data Mart,zeljebbari,cacanindin,FEATURE_REQUEST,ASSIGNED,P2,2020-01-28,1
+140565669,FDW HRAPI and Cost Center Headcount rescheduling data refresh pipeline (BQ and PLX),HCM Data Mart,aghorai,mraizada,FEATURE_REQUEST,FIXED,P2,2019-09-05,98
+117425990,[HCM Report] Add Routed Job Applications in the data mart & report,HCM Dashboards,alvinying,alvinying,FEATURE_REQUEST,VERIFIED,P0,2018-10-08,91
+113535404,[HCM Report] Requested and Remaining Hires should only include Active SRs,HCM Dashboards,alvinying,epahal,FEATURE_REQUEST,FIXED,P3,2018-08-29,16
+148484437,Use different mdb group for dremel extraction in various environments,HCM Data Mart,,aghorai,INTERNAL_CLEANUP,NEW,P2,2020-01-28,0
+140822860,Need access to datauniverse_hcm_reporting.HeadcountTeamAllocationHistory and TeamAllocationMaster,HCM Data Mart,diptinemade,diptinemade,PROCESS,ASSIGNED,P1,2019-09-10,0
+113177588,[HCM Report] SIT & UAT,HCM Dashboards,apisarchyk,apisarchyk,FEATURE_REQUEST,FIXED,P3,2018-08-24,136
+148447858,"[HCM Report] Enable section of any cost center, incl those with null headcount",HCM Dashboards,,shorwitz,FEATURE_REQUEST,NEW,P2,2020-01-28,1
+148448447,[HCM Report] Start with Directs in Manager Summary chart,HCM Dashboards,,shorwitz,FEATURE_REQUEST,NEW,P2,2020-01-28,1
+131916942,Rebuild Head Count Allocation historical consumption snapshots,HCM Data Mart,pmallireddy,pmallireddy,PROCESS,FIXED,P2,2019-05-03,28
+115764461,"[HCM Report] Improve ""Supervisory Org"" (manager) filter",HCM Dashboards,epahal,alvinying,FEATURE_REQUEST,VERIFIED,P1,2018-09-14,3
+132882098,[Ext] Part time employees with pending zero impact transfers is causing ANS numbers to be off.,HCM Data Mart,zeljebbari,sameerpatel,BUG,WILL_NOT_FIX,P2,2019-05-16,5
+140942737,[HCM Report] Format all HCM dashboard scripts,HCM Dashboards,chavisinghal,chavisinghal,INTERNAL_CLEANUP,WILL_NOT_FIX,P2,2019-09-12,120
+142363144,PezCloudSQLtoBQ - Landing failing in UAT,HCM Data Mart,pmallireddy,pmallireddy,FEATURE_REQUEST,FIXED,P2,2019-10-09,63
+138809493,headcount_reporting.TeamsPersonAllocationMaster data refresh issue,HCM Data Mart,nikkijain,nikkijain,CUSTOMER_ISSUE,FIXED,P1,2019-08-01,1
+137666104,[Data Mart] Fix production view and re-populate the data for HC for past 17 days,HCM Data Mart,aghorai,sunilsaxena,BUG,VERIFIER_ASSIGNED,P1,2019-07-16,14
+131907722,[Data Mart] Pending transfer user showing up as both 1 Current and 1 ANS under the same manager,HCM Data Mart,pmallireddy,alvinying,BUG,VERIFIER_ASSIGNED,P2,2019-05-03,18
+138619368,Data Mart v1.2 staffing request - Ariane Launch,HCM Data Mart,zeljebbari,zeljebbari,PROCESS,VERIFIED,P2,2019-07-30,91
+135445175,[Data Mart] Change Error notification to hcm-reporting-du-support,HCM Data Mart,sunilsaxena,sunilsaxena,PROCESS,VERIFIED,P1,2019-06-17,1
+137649248,[Negative report] Negative SR Table shouldn't be accessible by Unrestricted MDB group,HCM Dashboards,cviswanathan,alvinying,BUG,VERIFIER_ASSIGNED,P2,2019-07-16,1
+132680448,Incorrect tvc_hc_allocation calculation,HCM Data Mart,pmallireddy,orazs,BUG,VERIFIED,P2,2019-05-14,17
+142951765,[Data Mart] Issue summary : Fix all the facts jobs/tables in dev env,HCM Data Mart,pmallireddy,pmallireddy,FEATURE_REQUEST,FIXED,P2,2019-10-18,54
+136272297,[HC & Staffing report] Customized report for Cloud sales and Finance,HCM Dashboards,zeljebbari,zeljebbari,FEATURE_REQUEST,ASSIGNED,P3,2019-06-28,31
+147429115,[Data Mart] Zeto support scope & transition plan,HCM Data Mart,,cacanindin,INTERNAL_CLEANUP,NEW,P3,2020-01-09,0
+114794885,[HCM Report] Target values don't match in Summary and By CC/By Manager sections (synching issue),HCM Dashboards,,apisarchyk,BUG,NEW,P4,2018-09-10,262
+132451706,[DataMart] New feature: Integrate BigQuery with Plx dashboards without using the Legacy Plx workflow,HCM Data Mart,,zeljebbari,FEATURE_REQUEST,NEW,P2,2019-05-10,210
+142643924,[Data Mart] Loans - Change to Landing Table - Loan_Transaction,HCM Data Mart,pmallireddy,sameerpatel,INTERNAL_CLEANUP,WILL_NOT_FIX,P1,2019-10-14,0
+133646421,Disappeared records in person table,HCM Data Mart,orazs,orazs,BUG,ASSIGNED,P3,2019-05-28,2
+135262475,Backfill Person hierarchy history from Pez,HCM Data Mart,,sameerpatel,PROCESS,WILL_NOT_FIX,P3,2019-06-14,31
+132167763,Technical operations / selective rerun,HCM Data Mart,sunilsaxena,zeljebbari,PROCESS,VERIFIED,P2,2019-05-07,212
+132170628,Misc dimensions history,HCM Data Mart,nidhishk,zeljebbari,FEATURE_REQUEST,FIXED,P2,2019-05-07,213
+133248162,[Data Mart] Data environment strategy,HCM Data Mart,alvinying,alvinying,PROCESS,ASSIGNED,P2,2019-05-21,199
+147432203,[Data Mart] Utility to perform backfill automatically,HCM Data Mart,,cacanindin,INTERNAL_CLEANUP,NEW,P3,2020-01-09,0
+119067203,[HCM Report] Add gHire link to Routing detail table in dashboard,HCM Dashboards,alvinying,alvinying,FEATURE_REQUEST,VERIFIED,P2,2018-11-06,62
+144497100,[Planning DU - Octopus ] Update View - Remove Rounding of Numeric fields in View headcount_allocation,HCM Data Mart,lmallavarapu,sameerpatel,FEATURE_REQUEST,VERIFIED,P2,2019-11-14,6
+147003083,[Retrofit dashboard] Update dashboards to use newly created tables,HCM Data Mart,hongyil,cacanindin,FEATURE_REQUEST,FIXED,P2,2019-12-30,29
+135185021,Planning Dashboard - Automation,HCM Dashboards,cviswanathan,zeljebbari,FEATURE_REQUEST,VERIFIER_ASSIGNED,P2,2019-06-13,60
+146165387,[Data Mart] Add Manager Hierarchy Levels 14 to 20 in Loans Consumption Table,HCM Data Mart,aghorai,aghorai,FEATURE_REQUEST,FIXED,P2,2019-12-12,1
+141794928,HCM Versioning jobs failed,HCM Production Bugs,pmallireddy,chirumamillam,BUG,FIXED,P1,2019-09-28,10
+133331989,[DataMart Metrics - b/132170530] Come up with survey questions (UX researchers) - latency/CSAT/Googleyness,HCM Data Mart,zeljebbari,zeljebbari,PROCESS,ACCEPTED,P2,2019-05-22,188
+131430407,[Data Mart v1 dev issue] Active Reserve HC record mistakenly marked as delete,HCM Data Mart,pmallireddy,alvinying,BUG,FIXED,P1,2019-04-26,3
+135213853,[Team allocations] Add new parameter options for user-selected dimensions,HCM Dashboards,cviswanathan,alvinying,FEATURE_REQUEST,VERIFIER_ASSIGNED,P2,2019-06-13,34
+147744558,hc discrepancy between Pez and headcount_allocation_history table,HCM Data Mart,orazs,orazs,BUG,ASSIGNED,P2,2020-01-15,6
+132639972,HCM reporting DEV UAT sync,HCM Data Mart,aghorai,sunilsaxena,FEATURE_REQUEST,FIXED,P2,2019-05-13,8
+120021478,"[HCM Report] Negative Headcount Audit pipeline - Create Clarinet projects for dev, staging, prod",HCM Dashboards,sofeeya,sofeeya,FEATURE_REQUEST,FIXED,P2,2018-11-26,58
+138200310,[Data Mart] To add MDB members to the member list at the dataset level,HCM Data Mart,hongyil,hongyil,FEATURE_REQUEST,FIXED,P2,2019-07-23,142
+136651644,Data Mart - Table type discussion,HCM Data Mart,sunilsaxena,zeljebbari,INTERNAL_CLEANUP,ASSIGNED,P2,2019-07-03,146
+135124030,[Anaplan support] - HCM support to Anaplan for HW needs master ticket,HCM Data Mart,alvinying,zeljebbari,PROCESS,ASSIGNED,P2,2019-06-12,167
+132171089,Consolidate groups used for developers and users,HCM Data Mart,,zeljebbari,PROCESS,NEW,P2,2019-05-07,212
+148393359,[Data Mart] Land table role_assignment in Pez_Landing,HCM Data Mart,aghorai,nidhishk,PROCESS,ASSIGNED,P3,2020-01-27,0
+138591257,Planning dashboard - Add manager in the persons without team section / add pending and open HC,HCM Dashboards,cviswanathan,zeljebbari,FEATURE_REQUEST,VERIFIER_ASSIGNED,P2,2019-07-29,15
+133817575,[Data Mart] Issue summary : Build historical snapshot tables in BQ starting from Jan 2019,HCM Data Mart,pmallireddy,pmallireddy,FEATURE_REQUEST,FIXED,P2,2019-05-29,2
+134113816,[HCM Report] Display the past 12 months data on HC and Staffing Trend charts,HCM Dashboards,hkondreddy,hkondreddy,FEATURE_REQUEST,VERIFIED,P3,2019-05-31,7
+132170529,Automated data quality checks,HCM Data Mart,orazs,zeljebbari,FEATURE_REQUEST,ASSIGNED,P2,2019-05-07,212
+122449539,[HCM Report] Review and clean up groups used for HCM table/dashboard access,HCM Dashboards,alvinying,alvinying,INTERNAL_CLEANUP,ASSIGNED,P3,2019-01-07,143
+147481757,[Data Mart] Move to Placer (if no blocker),HCM Data Mart,,cacanindin,FEATURE_REQUEST,NEW,P3,2020-01-10,0
+147691116,Need access to Dimensions_Processed data set,HCM Data Mart,sunilsaxena,pmallireddy,FEATURE_REQUEST,ASSIGNED,P3,2020-01-14,0
+147421045,[Data Mart] Review MDB groups,HCM Data Mart,pmallireddy,cacanindin,INTERNAL_CLEANUP,ASSIGNED,P2,2020-01-09,18
+117982352,[Data Mart] Create export and sample SQL for delimited product parent names for RE finance,HCM Data Mart,alvinying,alvinying,PROCESS,FIXED,P2,2018-10-19,18
+148136077,"[HCM Report] Grants Report - Add ""Location locked"" filter",HCM Dashboards,orazs,jonawan,FEATURE_REQUEST,ASSIGNED,P2,2020-01-22,6
+136255712,[HCM Report] HCM Reports Workflow (Prod) Failed,HCM Dashboards,hkondreddy,cviswanathan,BUG,VERIFIED,P2,2019-06-28,32
+147429086,[Data Mart] Shorten the release cycle and improve data quality for simple column additions by automating manual steps in the process,HCM Data Mart,,cacanindin,INTERNAL_CLEANUP,NEW,P3,2020-01-09,1
+138239430,Data Mart - Backfill manager hierarchy from FDW,HCM Data Mart,aghorai,zeljebbari,BUG,VERIFIED,P2,2019-07-23,3
+116163964,[HCM Report] Have separate namespace for hcm plx scripts and also another cns space,HCM Dashboards,epahal,alvinying,FEATURE_REQUEST,FIXED,P2,2018-09-20,41
+134093246,[HCM Report] Update Teams report scripts to avoid Dremel Routing Issues,HCM Dashboards,hkondreddy,alvinying,INTERNAL_CLEANUP,VERIFIED,P2,2019-05-30,29
+122364904,[HCM Report] Add Non-netted Potential New Negatives,HCM Dashboards,alvinying,alvinying,FEATURE_REQUEST,FIXED,P2,2019-01-04,146
+131415371,Update team assignment allocation % logic in HCM teams reports (and beta data mart tables),HCM Dashboards,cviswanathan,alvinying,FEATURE_REQUEST,VERIFIED,P1,2019-04-26,34
+147422636,[Data Mart] Review HCM DU SLO proposal,HCM Data Mart,,cacanindin,FEATURE_REQUEST,NEW,P1,2020-01-09,0
+133225623,Define logic to backfill TG history from TG dump snapshot,HCM Data Mart,mstockwell,alvinying,PROCESS,FIXED,P1,2019-05-21,10
+147359182,[Data Mart] Landing headcount_transaction.effective_date has non-date values,HCM Data Mart,pmallireddy,nidhishk,BUG,ACCEPTED,P3,2020-01-08,20
+132168720,Product roadmap,HCM Data Mart,alvinying,zeljebbari,PROCESS,FIXED,P1,2019-05-07,92
+148346677,"ClarinetJobFailed: Pipeline ""PezCloudSQLtoBQ - Landing"" failed to run.",HCM Production Bugs,ronitkumar,mdb.clarinet,BUG,WILL_NOT_FIX,P2,2020-01-26,1
+134095744,[HCM Report] Update Headcount & Staffing report scripts to avoid Dremel Routing Issues,HCM Dashboards,cviswanathan,alvinying,INTERNAL_CLEANUP,ACCEPTED,P2,2019-05-30,77
+147218889,Grants dashboard,HCM Data Mart,orazs,zeljebbari,FEATURE_REQUEST,VERIFIED,P2,2020-01-06,21
+147492990,Grants in Data Mart - logic to derive HC cancelled out because of negatives,HCM Data Mart,nidhishk,zeljebbari,FEATURE_REQUEST,ACCEPTED,P2,2020-01-10,17
+136193462,HC and staffing report - Separate Pending FTEs (ANS+),HCM Dashboards,hkondreddy,zeljebbari,FEATURE_REQUEST,VERIFIED,P3,2019-06-27,6
+147133957,Analytics tab for HCM marketplace,HCM Data Mart,zeljebbari,zeljebbari,FEATURE_REQUEST,VERIFIED,P2,2020-01-03,26
+139801522,Job level dev and implementation,HCM Data Mart,,zeljebbari,FEATURE_REQUEST,NEW,P2,2019-08-21,107
+139801391,Loans ariane to finalize inputs/entries,HCM Data Mart,zeljebbari,zeljebbari,PROCESS,VERIFIED,P2,2019-08-21,107
+141172623,[Data Mart] location_site_level_3_name does not roll up under level 2,HCM Data Mart,sameerpatel,alvinying,BUG,ASSIGNED,P3,2019-09-17,0
+147907498,Pez delegate access - bring up all columns from headcount_planning.pez_user_access_prod,HCM Data Mart,nidhishk,zeljebbari,FEATURE_REQUEST,ASSIGNED,P2,2020-01-17,12
+147362466,[Data Mart] Issue summary : ctrl_job_category_id should be -1 for pez snap shot summary data,HCM Data Mart,pmallireddy,pmallireddy,FEATURE_REQUEST,FIXED,P2,2020-01-08,2
+146633733,[Data Mart] DQ expand test scripts to cover more data elements,HCM Data Mart,nidhishk,nidhishk,PROCESS,ACCEPTED,P4,2019-12-20,38
+138620354,Data Mart v1.2 - Create technical design document for staffing request,HCM Data Mart,pmallireddy,zeljebbari,FEATURE_REQUEST,VERIFIED,P2,2019-07-30,48
+148448019,[HCM Report] Add Cost Center Rollup Filter,HCM Dashboards,,shorwitz,FEATURE_REQUEST,NEW,P2,2020-01-28,1
+132171247,Cost Equivalent HC discussions,HCM Data Mart,,zeljebbari,FEATURE_REQUEST,NEW,P1,2019-05-07,212
+147295346,Descrepancy in current_hc_allocation between Pez and data mart,HCM Data Mart,pmallireddy,orazs,BUG,WILL_NOT_FIX,P2,2020-01-07,3
+134080950,Develop ETL for Team Allocation History,HCM Data Mart,pmallireddy,zeljebbari,FEATURE_REQUEST,WILL_NOT_FIX,P1,2019-05-30,22
+137292901,[Data Mart]  DQ - Add Metric validation for Headcount Allocation metrics,HCM Data Mart,orazs,sameerpatel,PROCESS,ACCEPTED,P2,2019-07-11,138
+137852838,[HCM Dashboard] tracking bug for improving performance,HCM Dashboards,cviswanathan,zeljebbari,PROCESS,ACCEPTED,P3,2019-07-18,56
+122312832,[HCM Report] Replace all references to non-public PeopleView tables,HCM Dashboards,cviswanathan,alvinying,INTERNAL_CLEANUP,VERIFIED,P4,2019-01-03,196
+146552364,[Data Mart] Technical Docs - HCM ER model,HCM Data Mart,nidhishk,nidhishk,INTERNAL_CLEANUP,VERIFIER_ASSIGNED,P4,2019-12-19,11
+147896269,[Data Mart] Pentaho jobs on HR / Comp API fields for People Cost reporting,HCM Data Mart,orazs,alvinying,FEATURE_REQUEST,WILL_NOT_FIX,P1,2020-01-17,10
+138321113,"Plannig Dashboard - add ""bussiness_title"" field to the view used to generate the dashboard",HCM Dashboards,cviswanathan,zeljebbari,FEATURE_REQUEST,VERIFIED,P2,2019-07-24,8
+130677028,"[Negatives report] Correct field name typo - ""rational"" should be ""rationale""",HCM Dashboards,sofeeya,alvinying,BUG,FIXED,P3,2019-04-16,1
+146442187,Team allocation dash,HCM Data Mart,cviswanathan,zeljebbari,FEATURE_REQUEST,ACCEPTED,P2,2019-12-17,41
+141542045,"Process for loading data from dev, UAT and prod to respective source system environments",HCM Data Mart,zeljebbari,zeljebbari,PROCESS,ASSIGNED,P2,2019-09-24,63
+135470916,[DS PoC] Create data source for Teams data using BI Engine,HCM Dashboards,hkondreddy,alvinying,PROCESS,ACCEPTED,P2,2019-06-17,99
+131162985,[HCM Report] Verification Hierarchy - Org Lead dropdown should be based on manager hierarchy instead of verification hierarchy,HCM Dashboards,epahal,epahal,FEATURE_REQUEST,FIXED,P2,2019-04-23,0
+148217060,[HCM Report] Loans Report - sync uat/dev scripts with prod,HCM Dashboards,cviswanathan,mstockwell,INTERNAL_CLEANUP,ACCEPTED,P2,2020-01-23,6
+130664229,Draw mdb groups pictorically + document for the same,HCM Data Mart,chavisinghal,chavisinghal,FEATURE_REQUEST,WILL_NOT_FIX,P3,2019-04-16,35
+130870474,Control Column Names need to be per naming standards - Snake Case,HCM Data Mart,orazs,sameerpatel,INTERNAL_CLEANUP,VERIFIED,P2,2019-04-19,69
+133515508,[HCM Report] Update legacy data mart table to use new assignment types,HCM Dashboards,cviswanathan,alvinying,FEATURE_REQUEST,VERIFIED,P2,2019-05-24,32
+139474171,HCM Pantheon/Clarinet - Analysis,HCM Data Mart,ganeshprabhu,ganeshprabhu,BUG,VERIFIER_ASSIGNED,P2,2019-08-15,25
+134764043,[Data Mart] Identify Additional Pez tables for Transaction Activity,HCM Data Mart,sameerpatel,sameerpatel,FEATURE_REQUEST,FIXED,P2,2019-06-07,7
+144812321,[Data Mart] Automated Bug Creation,HCM Data Mart,hongyil,hongyil,FEATURE_REQUEST,ASSIGNED,P2,2019-11-20,50
+138933902,Data Mart - Clarinet pipeline jobs,HCM Data Mart,aghorai,zeljebbari,PROCESS,ASSIGNED,P3,2019-08-05,0
+146575152,[HCM Report] Loan Giver Detail - concatenate recipient team to return single row for CURRENT assignments,HCM Dashboards,,mstockwell,FEATURE_REQUEST,NEW,P2,2019-12-19,0
+147431086,[Data Mart] Code refactoring and improve performance specially sqls,HCM Data Mart,,cacanindin,INTERNAL_CLEANUP,NEW,P3,2020-01-09,0
+148144629,[Data Mart] different High Watermark dates 9999-01-01 vs. 9999-12-31,HCM Data Mart,,nidhishk,BUG,NEW,P4,2020-01-22,1
+135552608,[Team Allocation Dashboard] Add hyperlinks to the teams - Point them to go/teams,HCM Dashboards,cviswanathan,cviswanathan,FEATURE_REQUEST,VERIFIED,P3,2019-06-18,6
+139801526,Loans UX study (optional),HCM Dashboards,mstockwell,zeljebbari,FEATURE_REQUEST,FIXED,P2,2019-08-21,78
+142556660,[HCM Report]  Deprecate DQ Signals dashboard,HCM Dashboards,alvinying,mstockwell,INTERNAL_CLEANUP,VERIFIED,P2,2019-10-11,84
+137660366,Data Mart - Create 1 view for team allocation history and/or modify the Team HC allocation history before/after 7/14,HCM Data Mart,aghorai,zeljebbari,BUG,VERIFIED,P2,2019-07-16,37
+141803764,Intended negatives tables from Pez - Hongyi for landing / Prudhvi for facts /Aritra for dimensions + Plx,HCM Data Mart,alvinying,zeljebbari,FEATURE_REQUEST,ASSIGNED,P2,2019-09-28,59
+140942285,[Data Mart] Issue summary - team_allocation_snap_20190831 didn't exist,HCM Data Mart,pmallireddy,lmallavarapu,BUG,FIXED,P2,2019-09-12,5
+133225669,Backfill TG history from TG dump,HCM Data Mart,pmallireddy,alvinying,PROCESS,WILL_NOT_FIX,P3,2019-05-21,9
+146442892,Grants and location locking - dash mocks,HCM Data Mart,mstockwell,zeljebbari,FEATURE_REQUEST,FIXED,P2,2019-12-17,24
+139874770,[Data Mart] Missing Rows in Consumption Layer Compared to HC Allocation Fact,HCM Data Mart,pmallireddy,aghorai,INTERNAL_CLEANUP,FIXED,P2,2019-08-22,113
+133250430,[DataMart] Automated notifications for API changes and outages for DataMart dependencies,HCM Data Mart,zeljebbari,zeljebbari,PROCESS,FIXED,P2,2019-05-21,25
+136022436,[Data Mart] Granting access to planing du dev team for hcm consumption view,HCM Data Mart,sunilsaxena,sunilsaxena,PROCESS,VERIFIED,P2,2019-06-25,164
+144429095,[Data Mart] Update HCM dependency graph,HCM Data Mart,orazs,sunilsaxena,PROCESS,ASSIGNED,P2,2019-11-13,0
+139799730,Staffing Requests Dev - Landing tables,HCM Data Mart,hongyil,zeljebbari,FEATURE_REQUEST,VERIFIED,P2,2019-08-21,26
+138849236,[HCM - DQ] Internal Email - add link to the DQ Support Run Book,HCM Data Mart,orazs,mraizada,FEATURE_REQUEST,FIXED,P2,2019-08-02,6
+146000744,"ClarinetJobFailed: Pipeline ""BQ to PLX SRT Historical Consumption Table"" failed to run.",HCM Data Mart,pmallireddy,mdb.clarinet,FEATURE_REQUEST,FIXED,P1,2019-12-10,1
+135707139,[Data Mart] Pez Versioned Job is failing in DEV and UAT,HCM Data Mart,sunilsaxena,sunilsaxena,BUG,FIXED,P2,2019-06-21,3
+138387223,Data Mart - Explore the use of DSF for Data Mart to mange RLS (specifically for BigQuery),HCM Data Mart,zeljebbari,zeljebbari,PROCESS,ASSIGNED,P2,2019-07-25,134
+132171047,Sites (user facing),HCM Data Mart,alvinying,zeljebbari,PROCESS,FIXED,P2,2019-05-07,212
+137856354,Add 3 fields in customer facing Plx tables / Plx view with history: team_description - team_type - team_status in addition to include levels 13~15 ids and names (6 columns),HCM Data Mart,pmallireddy,zeljebbari,FEATURE_REQUEST,VERIFIED,P2,2019-07-18,20
+132900356,[HCM Reports] Track user exports on HCM reports per PWG feedback,HCM Dashboards,hkondreddy,alvinying,PROCESS,ASSIGNED,P3,2019-05-16,14
+140181757,"[Data Mart] Need to load missing Teams data - Leads, Owners, Delegates, and other Dim fields",HCM Data Mart,sameerpatel,aghorai,FEATURE_REQUEST,VERIFIED,P2,2019-08-28,19
+139801797,Loans FDD,HCM Data Mart,sameerpatel,zeljebbari,FEATURE_REQUEST,FIXED,P2,2019-08-21,50
+144809538,"ClarinetJobFailed: Pipeline ""Test_GP_X20_Sample_Job"" failed to run.",HCM Data Mart,,mdb.clarinet,FEATURE_REQUEST,NEW,P2,2019-11-20,0
+148228812,[TeamAllocationHistory Plx table] - Analysis and documentation to bring teams with no people assigned to them into the data mart,HCM Data Mart,nidhishk,zeljebbari,FEATURE_REQUEST,VERIFIER_ASSIGNED,P2,2020-01-23,6
+133345548,[Data Mart] DQ Fixes,HCM Data Mart,orazs,mraizada,BUG,FIXED,P2,2019-05-22,5
+115562748,[HCM Report] Net out of negative/positive under same manager,HCM Dashboards,dpomeroy,alvinying,BUG,WILL_NOT_FIX,P2,2018-09-12,2
+129289833,Gracefully handle Perfect Duplicate Records from Landing to Versioned Layer,HCM Data Mart,pmallireddy,sameerpatel,FEATURE_REQUEST,ASSIGNED,P3,2019-03-25,57
+136974535,[Headcount & Staffing Report] Add Region and Sub Region to the Data Source,HCM Dashboards,,kdescher,FEATURE_REQUEST,NEW,P3,2019-07-08,0
+132169796,Headcount Transaction history,HCM Data Mart,,zeljebbari,FEATURE_REQUEST,NEW,P3,2019-05-07,212
+129947637,Issue summary - Need to load Pez CloudSQL/Pez Snapshot data into Pez_Landing dataset,HCM Data Mart,chavisinghal,sameerpatel,INTERNAL_CLEANUP,VERIFIER_ASSIGNED,P3,2019-04-04,47
+132170629,Job Levels (for managers),HCM Data Mart,alvinying,zeljebbari,FEATURE_REQUEST,ASSIGNED,P2,2019-05-07,212
+132587750,BQ to PLX export job is failing in UAT,HCM Data Mart,aghorai,sunilsaxena,FEATURE_REQUEST,FIXED,P2,2019-05-13,8
+136597094,Need to handle Late Arriving Dim values gracefully rather than -2 (DU_UNKNOWN) when possible,HCM Data Mart,chavisinghal,sameerpatel,FEATURE_REQUEST,ASSIGNED,P1,2019-07-02,211
+141547362,Dashboard usability enhancements,HCM Dashboards,cviswanathan,zeljebbari,INTERNAL_CLEANUP,ASSIGNED,P2,2019-09-24,0
+147695268,"[Data Mart] DU object access GCP Clarinet, BigQuery,",HCM Data Mart,sunilsaxena,sunilsaxena,INTERNAL_CLEANUP,ACCEPTED,P2,2020-01-14,13
+129294998,Pez CloudSQL Source to Landing zone  Field difference,HCM Data Mart,chavisinghal,skaruturi,BUG,VERIFIER_ASSIGNED,P2,2019-03-25,57
+137673922,Data Mart - HC Backfill missing Manager Dim Id,HCM Data Mart,pmallireddy,sameerpatel,BUG,VERIFIED,P1,2019-07-16,3
+144934871,Create validation job for pez source tables,HCM Data Mart,pmallireddy,pmallireddy,FEATURE_REQUEST,FIXED,P3,2019-11-21,22
+145947937,"[Data Mart] Add Manager Hierarchy Levels 14 to 20 in Loans, SRT Consumption Tables",HCM Data Mart,aghorai,aghorai,FEATURE_REQUEST,VERIFIED,P2,2019-12-09,31
+147744631,Process to request access to UAT and Prod in Plx (ticket+business case+timeline) as well as BQ in the future,HCM Data Mart,chavisinghal,zeljebbari,PROCESS,ACCEPTED,P2,2020-01-15,12
+114136885,[HCM Report] Basic formatting,HCM Dashboards,alvinying,alvinying,FEATURE_REQUEST,VERIFIED,P3,2018-09-06,7
+138738002,Persons wo teams and planning dashboard - People without teams are not showing up,HCM Dashboards,cviswanathan,zeljebbari,BUG,VERIFIER_ASSIGNED,P2,2019-07-31,8
+147747857,[Worksdash] YTD hires section numbers are misleading,HCM Dashboards,hkondreddy,hkondreddy,BUG,VERIFIED,P2,2020-01-15,7
+132166681,Negatives report,HCM Dashboards,,zeljebbari,FEATURE_REQUEST,NEW,P2,2019-05-07,10
+146227389,[Data Mart] Issue summary - Update the Grants and Location locking TDD,HCM Data Mart,pmallireddy,pmallireddy,FEATURE_REQUEST,FIXED,P2,2019-12-13,28
+135201589,[Data Mart] Update site to provide guidance for data mart users,HCM Data Mart,alvinying,alvinying,PROCESS,ASSIGNED,P2,2019-06-13,166
+139662563,HCM Reporting Backup,HCM Data Mart,nvalluru,nvalluru,FEATURE_REQUEST,ACCEPTED,P2,2019-08-19,143
+133331480,[DataMart Metrics - b/132170530] Refine business goals and come up with calculations ( this goal overlaps with productivity on task),HCM Data Mart,zeljebbari,zeljebbari,PROCESS,VERIFIED,P2,2019-05-22,35
+146133627,[Data Mart] Issue summary,HCM Data Mart,orazs,orazs,BUG,ACCEPTED,P2,2019-12-12,0
+148523301,[HCM Report] add location lock field to HCM-report,HCM Dashboards,,shorwitz,FEATURE_REQUEST,NEW,P2,2020-01-29,0
+143356847,[Data Mart] HCM Planning - Octopus Manager Hierarchy fix,HCM Data Mart,aghorai,mraizada,FEATURE_REQUEST,VERIFIED,P2,2019-10-25,13
+129262896,[HCM Report] Add more comments to the Verification Hierarchy Script,HCM Dashboards,cviswanathan,epahal,INTERNAL_CLEANUP,ASSIGNED,P4,2019-03-25,66
+133494179,Pez transactions - Headcount Slot History Table in Processed Layer - missing intra-day slot updates,HCM Data Mart,nidhishk,zeljebbari,FEATURE_REQUEST,ASSIGNED,P3,2019-05-24,196
+135549145,[Usage Dashboard] Empty values in HCM Usage Report,HCM Dashboards,hkondreddy,hkondreddy,BUG,ASSIGNED,P3,2019-06-18,0
+113178537,[HCM  Report] Prod migration,HCM Dashboards,alvinying,apisarchyk,FEATURE_REQUEST,VERIFIED,P0,2018-08-24,136
+139013797,"[Data Mart] headcount_reporting.RootOrgTeamsPersonAllocation table, inconsistent filter behavior",HCM Data Mart,mhy,mstockwell,CUSTOMER_ISSUE,WILL_NOT_FIX,P2,2019-08-06,2
+134963874,[Data Mart] Backfill Team Allocation History from TG ALL data post the Team Assignment code change,HCM Data Mart,pmallireddy,sameerpatel,FEATURE_REQUEST,VERIFIED,P1,2019-06-10,43
+136552281,Change logic in Pre-Processed Layer for Dim Key Look-up,HCM Data Mart,,sameerpatel,INTERNAL_CLEANUP,NEW,P2,2019-07-02,147
+141542625,Loans - create ETL mapping and reference design document for ETL pipeline in a document,HCM Data Mart,pmallireddy,zeljebbari,FEATURE_REQUEST,VERIFIED,P2,2019-09-24,35
+135192152,MDB group proposal and creation for DU and clean up UAT,HCM Data Mart,sunilsaxena,zeljebbari,PROCESS,FIXED,P1,2019-06-13,41
+147238789,[Data Mart] Enable negative_slots_sweeping and headcount_slot_current_and_history,HCM Data Mart,dpomeroy,alvinying,PROCESS,VERIFIER_ASSIGNED,P3,2020-01-06,21
+147429118,[Data Mart] GDPR and data retention compliance across Data Universe,HCM Data Mart,,cacanindin,FEATURE_REQUEST,NEW,P3,2020-01-09,0
+131901495,[Data Mart Dev Issue] manager_level_X_user_name should be populated for 1 more level,HCM Data Mart,sameerpatel,alvinying,BUG,VERIFIED,P2,2019-05-03,49
+140924508,"[HCM Report] Team allocations report shows ""Cannot read property 'fetchTabularData' of undefined"" for some users",HCM Dashboards,cviswanathan,alvinying,BUG,VERIFIED,P1,2019-09-12,5
+135268741,Enhance CDC common logic to support Intra-Day Refresh and Intra-Day CDC,HCM Data Mart,pmallireddy,sameerpatel,PROCESS,VERIFIED,P2,2019-06-14,137
+146999924,[Retrofit dashboard] Create Data Model of new Dashboard source,HCM Data Mart,hongyil,zeljebbari,FEATURE_REQUEST,VERIFIED,P2,2019-12-30,0
+138433048,Bug - Terminated Persons are having HC Allocation as current records.,HCM Data Mart,pmallireddy,sameerpatel,BUG,FIXED,P2,2019-07-26,140
+136551042,HCM Data Mart - Change the hire_date field data type from string to timestamp in corp-data-store.dimensions_processed.person_history,HCM Data Mart,hongyil,zeljebbari,BUG,FIXED,P3,2019-07-02,28
+134859567,[Data Mart] Implement automated process/service to manages replication of and access to sets of files in case of outages (planned and unplanned),HCM Data Mart,,zeljebbari,PROCESS,NEW,P3,2019-06-09,0
+138243393,[HCM Report] Approval from POps Sec for sharing dashboard with Temps,HCM Dashboards,,alvinying,PROCESS,NEW,P2,2019-07-23,0
+140149781,Implement the logic to derive fact sor extract date for HC Allocation report,HCM Data Mart,pmallireddy,pmallireddy,FEATURE_REQUEST,FIXED,P2,2019-08-28,105
+119835856,[HCM Report] Replicator pipeline from Pez negative headcount audit table to HCM reporting Big Query,HCM Dashboards,sofeeya,sofeeya,FEATURE_REQUEST,FIXED,P2,2018-11-21,68
+113125134,[Data Mart] Aggregation and sync for go/TeamsExplorer,HCM Data Mart,kalq,alvinying,FEATURE_REQUEST,WILL_NOT_FIX,P2,2018-08-23,271
+148223900,[Planning Dashboard] Migrate Planning Dashboard to HCM Data Mart,HCM Dashboards,hkondreddy,alvinying,INTERNAL_CLEANUP,ASSIGNED,P2,2020-01-23,6
+138649639,[Data Mart] Materialize TeamAllocationHistory via plx workflow,HCM Data Mart,aghorai,mstockwell,INTERNAL_CLEANUP,VERIFIED,P2,2019-07-30,10
+123361189,[HCM Reports] Add CC Rollup Filter to the Dashboard Headcount and Staffing Report,HCM Dashboards,orazs,epahal,FEATURE_REQUEST,FIXED,P3,2019-01-24,117
+134962013,[Data Mart] Headcount Slot dim needs to include ALL data (Total) & Fact load needs to handle the FK correctly,HCM Data Mart,pmallireddy,sameerpatel,FEATURE_REQUEST,FIXED,P3,2019-06-10,169
+135469108,Include Control SK Column of Manager Hierarchy in Person History Hash Key,HCM Data Mart,aghorai,aghorai,INTERNAL_CLEANUP,VERIFIED,P2,2019-06-17,28
+137045448,Scope out effort for loans and grants Data Mart and Dashboards design completion,HCM Data Mart,zeljebbari,zeljebbari,FEATURE_REQUEST,VERIFIED,P2,2019-07-08,49
+147498230,"[HCM Report] Piper Checkin PROD - PLX dashboards, PLX scripts, PLX tables & PLX views",HCM Dashboards,chavisinghal,chavisinghal,PROCESS,ACCEPTED,P2,2020-01-10,18
+137548841,Backup strategy - Implementation,HCM Data Mart,sunilsaxena,zeljebbari,INTERNAL_CLEANUP,FIXED,P2,2019-07-15,148
+139276352,Data Source ID's incorrect in Corp-Data-Store{-env}.Dimensions_Processed for HCM Dims',HCM Data Mart,aghorai,sameerpatel,INTERNAL_CLEANUP,VERIFIED,P2,2019-08-12,150
+138659043,"Sync dev,uat and prod CL with latest CL across all jobs for HCM Reporting project",HCM Data Mart,hongyil,pmallireddy,BUG,FIXED,P2,2019-07-30,7
+119024902,[HCM Report] Current HC under venkatm in September higher than expected,HCM Dashboards,epahal,alvinying,BUG,FIXED,P2,2018-11-05,63
+112197014,Change HCM Teams Reports pipeline to run every 6 hours,HCM Dashboards,alvinying,alvinying,FEATURE_REQUEST,VERIFIER_ASSIGNED,P2,2018-08-03,291
+147292854,[Data Mart] Cost Center pivot view report,HCM Data Mart,nidhishk,nidhishk,FEATURE_REQUEST,ASSIGNED,P4,2020-01-07,1
+134080958,"Design of backup strategy, re-runs ...",HCM Data Mart,sunilsaxena,zeljebbari,PROCESS,VERIFIED,P2,2019-05-30,82
+139802146,HCM KPIs dashboard,HCM Dashboards,zeljebbari,zeljebbari,FEATURE_REQUEST,ASSIGNED,P3,2019-08-21,34
+128536248,[Moma verification SIT] ManagerVerificationCycles contains duplicate data,HCM Dashboards,alvinying,mraizada,INTERNAL_CLEANUP,FIXED,P1,2019-03-13,38
+146649845,[Data Mart] Metadata Management - ETL Specs & Data Lineage,HCM Data Mart,nidhishk,nidhishk,FEATURE_REQUEST,FIXED,P4,2019-12-20,17
+145999131,[Negatives Report] Separate out negative reserve,HCM Dashboards,orazs,jonawan,FEATURE_REQUEST,ACCEPTED,P3,2019-12-10,48
+148216320,[Data Mart] Performance Testing new HCM User Access joins for Delegates,HCM Data Mart,nidhishk,nidhishk,FEATURE_REQUEST,ACCEPTED,P2,2020-01-23,4
+144575827,Enable extraction of intended negative tables from Pez,HCM Data Mart,pmallireddy,pmallireddy,FEATURE_REQUEST,FIXED,P2,2019-11-15,0
+148273360,[HCM Report] Loans dashboard data sources not accessible by users outside of hc-managers,HCM Dashboards,cviswanathan,alvinying,BUG,WILL_NOT_FIX,P2,2020-01-24,0
+128857814,Control column Naming Standards,HCM Data Mart,zeljebbari,sunilsaxena,FEATURE_REQUEST,FIXED,P2,2019-03-18,74
+116722031,[HCM Report] Manager filter not affecting SR detail table,HCM Dashboards,epahal,alvinying,BUG,FIXED,P2,2018-09-26,2
+139801413,HCM Insights strategy - create slide for Data Work review on 9/10,HCM Data Mart,zeljebbari,zeljebbari,PROCESS,VERIFIED,P2,2019-08-21,26
+132170530,Define and communicate HCM metrics,HCM Data Mart,zeljebbari,zeljebbari,PROCESS,ASSIGNED,P1,2019-05-07,212
+142742141,[Data Mart] SRT Plx View - Column data rename,HCM Data Mart,aghorai,sameerpatel,FEATURE_REQUEST,VERIFIED,P1,2019-10-15,0
+137509422,[HCM Report] Add location / region view in HC & Staffing dashboard,HCM Dashboards,,melanielovell,FEATURE_REQUEST,NEW,P3,2019-07-15,0
+147008053,[Data Mart] Manager Hier Issue in Historical Backfill data,HCM Data Mart,sameerpatel,sameerpatel,INTERNAL_CLEANUP,WILL_NOT_FIX,P3,2019-12-30,28
+134047337,[HCM Report] Headcount & Staffing dashboard - HC trend was showing 5X duplicates,HCM Dashboards,hkondreddy,alvinying,BUG,VERIFIED,P2,2019-05-30,8
+129894279,[MOMA Verification] Verification dashboards have people with 600% completion rate.,HCM Dashboards,epahal,epahal,BUG,WILL_NOT_FIX,P3,2019-04-03,7
+138387033,[Data Mart] Issue summary - Missing Dimension info in the Team Allocation fact tables.,HCM Data Mart,pmallireddy,pmallireddy,FEATURE_REQUEST,FIXED,P2,2019-07-25,139
+139797539,[HCM Report] modify HCM and teams scripts to include accounting group owner,HCM Dashboards,cviswanathan,cviswanathan,FEATURE_REQUEST,VERIFIER_ASSIGNED,P1,2019-08-21,8
+141803761,Negatives report - Modify the negatives report to include the intended negatives label,HCM Dashboards,,zeljebbari,FEATURE_REQUEST,NEW,P2,2019-09-28,0
+134974452,[Data Mart] Clarify requirements on how users use TG #hashtags (captured in description field),HCM Data Mart,zeljebbari,zeljebbari,FEATURE_REQUEST,WILL_NOT_FIX,P3,2019-06-11,49
+133264307,Whitelist Corp Data Store Clarinet Account in FDW,HCM Data Mart,aghorai,aghorai,PROCESS,FIXED,P2,2019-05-21,7
+122448924,[HCM Report] Create draft version of Moma verification cycle report,HCM Dashboards,alvinying,alvinying,FEATURE_REQUEST,VERIFIED,P2,2019-01-07,143
+144931829,"[HCM Report] Negatives Report-- add concept of ""total over-hiring risk""",HCM Dashboards,alvinying,jonawan,FEATURE_REQUEST,ASSIGNED,P2,2019-11-21,0
+139193475,[Data Mart] Add the feature for nologging based on an indicator in BQ to PLX Export,HCM Data Mart,hongyil,aghorai,FEATURE_REQUEST,VERIFIED,P2,2019-08-09,22
+134963786,[Data Mart] Backfill HC Allocation History from Pez Snapshot post Team Assignment code update,HCM Data Mart,pmallireddy,sameerpatel,FEATURE_REQUEST,VERIFIED,P1,2019-06-10,35
+143238725,[HCM Report] Temp access to Negative HC & SR report,HCM Dashboards,,alvinying,PROCESS,NEW,P3,2019-10-23,86
+148171920,[WorksDash] 'null' displays as Team name,HCM Dashboards,hkondreddy,hkondreddy,BUG,VERIFIED,P2,2020-01-22,2
+140122838,[Data Mart] Issue summary Make the ctrl_sor_extract_datetime consistent,HCM Data Mart,orazs,pmallireddy,FEATURE_REQUEST,FIXED,P2,2019-08-27,17
+133226495,Backfill Cost Center hierarchy history from Pez,HCM Data Mart,,alvinying,PROCESS,NEW,P3,2019-05-21,55
+145995579,"ClarinetJobFailed: Pipeline ""Test_GP_X20_Sample_Job"" failed to run.",HCM Production Bugs,hongyil,mdb.clarinet,BUG,FIXED,P1,2019-12-10,0
+122450429,[HCM Report] HCM data mart conceptual model,HCM Dashboards,sameerpatel,alvinying,FEATURE_REQUEST,WILL_NOT_FIX,P2,2019-01-07,143
+133226258,Initial review and profiling of Pez transaction data,HCM Data Mart,sameerpatel,alvinying,PROCESS,VERIFIED,P1,2019-05-21,21
+119069136,[HCM Report] Deduplicate Routed Candidates,HCM Dashboards,epahal,alvinying,FEATURE_REQUEST,FIXED,P2,2018-11-06,62
+146556073,[Data Mart] SAP PowerDesigner scripting - Model from CSV,HCM Data Mart,nidhishk,nidhishk,INTERNAL_CLEANUP,FIXED,P4,2019-12-19,11
+143222710,[Data Mart] Dev data cleansing,HCM Data Mart,pmallireddy,hongyil,INTERNAL_CLEANUP,FIXED,P2,2019-10-23,49
+133225446,Develop ETL for Pez transaction data,HCM Data Mart,aghorai,alvinying,PROCESS,ACCEPTED,P3,2019-05-21,55
+131162207,Plx Namespace limitations,HCM Data Mart,chavisinghal,chavisinghal,FEATURE_REQUEST,VERIFIER_ASSIGNED,P2,2019-04-23,28
+132168285,Team allocations report v1,HCM Dashboards,,zeljebbari,FEATURE_REQUEST,NEW,P1,2019-05-07,10
+146511415,[Data Mart] Historical Backfill in Processed Layer has incorrect Manager ID in HC Allocation History,HCM Data Mart,pmallireddy,sameerpatel,INTERNAL_CLEANUP,FIXED,P1,2019-12-19,39
+148098849,[HCM Report] Grants Report - Add cost center name to CC drop down filter,HCM Dashboards,zeljebbari,mstockwell,FEATURE_REQUEST,VERIFIED,P2,2020-01-21,7
+147421056,[Data Mart] Remove obsolete objects in Plx,HCM Data Mart,,cacanindin,FEATURE_REQUEST,NEW,P1,2020-01-09,0
+148455617,[Data Mart] HCM Team Integration Analysis - Ariane,HCM Data Mart,,cacanindin,FEATURE_REQUEST,NEW,P4,2020-01-28,0
+120020541,[HCM Report] Negative Headcount Audit pipeline - Create table in Biq Query,HCM Dashboards,sofeeya,sofeeya,FEATURE_REQUEST,FIXED,P2,2018-11-26,58
+115993818,[HCM Report] Check in Plx scripts in piper,HCM Dashboards,chavisinghal,chavisinghal,FEATURE_REQUEST,FIXED,P2,2018-09-18,1
+147230096,"Tech debt - Move all dashboards to GoogleSQL API to support delegate access (negatives, worksdash)",HCM Data Mart,mstockwell,zeljebbari,INTERNAL_CLEANUP,ACCEPTED,P3,2020-01-06,22
+129334630,[HCM Report] Use trix to grant users access to CC's,HCM Dashboards,alvinying,epahal,FEATURE_REQUEST,VERIFIER_ASSIGNED,P4,2019-03-26,56
+137012775,[Data Mart] DQ - Add 0 row count check in Landing & Internal Email format (External to be done later - separate bug),HCM Data Mart,orazs,mraizada,FEATURE_REQUEST,VERIFIED,P2,2019-07-08,51
+130370412,[Negatives report] Add recruiter to Negatives report,HCM Dashboards,epahal,alvinying,FEATURE_REQUEST,FIXED,P2,2019-04-11,1
+129047067,Build automated Data Quality checks for HCM data mart,HCM Data Mart,orazs,orazs,FEATURE_REQUEST,FIXED,P2,2019-03-21,84
+139882110,[Data Mart] Unhide Columns from the HC view in both Dremel and SQL,HCM Data Mart,mstockwell,aghorai,FEATURE_REQUEST,VERIFIED,P2,2019-08-22,25
+119264104,[HCM Report] Teams Reports UI sync with HCM reports,HCM Dashboards,alvinying,alvinying,FEATURE_REQUEST,VERIFIED,P1,2018-11-08,60
+133247040,Generic Table in Admin to store Surroget ID's based on Data Source Key and Data Source Id for Each Target Table,HCM Data Mart,sunilsaxena,sameerpatel,PROCESS,ASSIGNED,P3,2019-05-21,233
+127992687,Give anupamai access in HCM reporting to Data Works cost centers,HCM Dashboards,anupamai,anupamai,FEATURE_REQUEST,VERIFIER_ASSIGNED,P3,2019-03-08,74
+123757695,[HCM Report] Suspend Candidate Pipeline and Remove from Dashboard,HCM Dashboards,epahal,epahal,FEATURE_REQUEST,VERIFIER_ASSIGNED,P2,2019-02-01,109
+141620136,StaffingPartner/RequestorHrId mapping,HCM Data Mart,pmallireddy,orazs,BUG,FIXED,P2,2019-09-25,77
+148519599,[Data Mart] Usability Improvement - Create multiple common formats of hierarchies,HCM Data Mart,nidhishk,nidhishk,FEATURE_REQUEST,ASSIGNED,P4,2020-01-29,0
+138902906,[Data Mart] Communication Link failure PezCloudSQLtoBQ - Landing,HCM Data Mart,,sunilsaxena,FEATURE_REQUEST,NEW,P2,2019-08-04,114
+122450271,[HCM Report] HCM reports small enhancements,HCM Dashboards,alvinying,alvinying,FEATURE_REQUEST,VERIFIED,P2,2019-01-07,143
+146501030,[HCM Report] Add the Marketplace link to all dashboards,HCM Dashboards,cviswanathan,cviswanathan,FEATURE_REQUEST,VERIFIED,P2,2019-12-18,36
+146447714,Plx views version control in Piper - Prod and UAT,HCM Data Mart,chavisinghal,zeljebbari,INTERNAL_CLEANUP,VERIFIER_ASSIGNED,P2,2019-12-17,24
+147364039,[Data Mart] Issue summary : ctrl_headcount_slot_id should be -1 for pez snapshot summary data in hc fact table,HCM Data Mart,pmallireddy,pmallireddy,FEATURE_REQUEST,ASSIGNED,P2,2020-01-08,0
+113072011,[HCM Report] Create Headcount & Staffing Report,HCM Dashboards,epahal,apisarchyk,FEATURE_REQUEST,FIXED,P2,2018-08-22,138
+139184980,Logic Change for Manager level fields in HC Allocation Snap table - Consumption Layer + Plx Tables/Views,HCM Data Mart,mstockwell,sameerpatel,FEATURE_REQUEST,VERIFIED,P2,2019-08-09,38
+114418965,[HCM Report] Should be able to see the full name of Cost Center in filter drop-down,HCM Dashboards,epahal,apisarchyk,FEATURE_REQUEST,FIXED,P3,2018-09-07,0
+134497063,[HCM Usage Report] Usage on new dashboards and data mart v1,HCM Dashboards,hkondreddy,alvinying,FEATURE_REQUEST,VERIFIER_ASSIGNED,P2,2019-06-04,10
+137852745,Dashboards - Move scripts to Cider,HCM Dashboards,cviswanathan,zeljebbari,PROCESS,ACCEPTED,P3,2019-07-18,28
+133868310,[Data Mart] Use Placer for HCM consumption tables in Plx/Dremel,HCM Data Mart,sunilsaxena,alvinying,PROCESS,WILL_NOT_FIX,P3,2019-05-29,1
+148472930,"[HCM Report] Grants PROD Piper Checkin PROD - PLX dashboards, PLX scripts, PLX tables & PLX views",HCM Dashboards,orazs,chavisinghal,FEATURE_REQUEST,ACCEPTED,P2,2020-01-28,1
+135214256,[Team allocations] Add new parameter options for user-selected metrics,HCM Dashboards,cviswanathan,alvinying,FEATURE_REQUEST,VERIFIED,P2,2019-06-13,12
+137550171,CDC logic and intraday refresh - implementation,HCM Data Mart,pmallireddy,zeljebbari,FEATURE_REQUEST,VERIFIED,P2,2019-07-15,63
+147498508,"[HCM Report] Piper Checkin Dev - PLX dashboards, PLX scripts, PLX tables & PLX views",HCM Dashboards,chavisinghal,chavisinghal,PROCESS,ACCEPTED,P2,2020-01-10,18
+147597693,Dashboards - Knowledge sharing to become secondary for loans and grants,HCM Data Mart,cacanindin,zeljebbari,PROCESS,ACCEPTED,P3,2020-01-13,16
+141918864,"ClarinetJobFailed: Pipeline ""Version Staffing Request Summary"" failed to run.",HCM Data Mart,pmallireddy,shankarboddu,BUG,FIXED,P1,2019-10-01,0
+115566510,[HCM Report] Data for 'Jian Tang' is missing from HCM Report,HCM Dashboards,epahal,apisarchyk,BUG,FIXED,P2,2018-09-12,369
+139800947,Loans dashboard intial mocks,HCM Data Mart,mstockwell,zeljebbari,FEATURE_REQUEST,VERIFIED,P2,2019-08-21,69
+146655243,"HC, Team and SR - DQ checks (PLX )",HCM Data Mart,orazs,zeljebbari,PROCESS,ASSIGNED,P2,2019-12-20,38
+134091107,[Data Mart] Pre-prod environment - discuss w/ CDNA leads and confirm direction,HCM Data Mart,alvinying,alvinying,PROCESS,ACCEPTED,P2,2019-05-30,180
+140717094,PezCloudSQLtoBQ - Landing job failed,HCM Data Mart,ronitkumar,ronitkumar,CUSTOMER_ISSUE,FIXED,P1,2019-09-09,0
+132170630,Spend management solution discussions,HCM Data Mart,,zeljebbari,FEATURE_REQUEST,WILL_NOT_FIX,P1,2019-05-07,17
+140442981,HC allocation Records with missing mgr details in consumption layer,HCM Data Mart,pmallireddy,pmallireddy,FEATURE_REQUEST,FIXED,P2,2019-09-03,99
+136034817,"[Usage Dashboard] Visitors, Sessions by SVP displaying 'null' values on X-axis",HCM Dashboards,hkondreddy,hkondreddy,BUG,VERIFIED,P3,2019-06-25,3
+122448683,[HCM Report] Create HCM report Tableau PoC,HCM Dashboards,skaruturi,alvinying,FEATURE_REQUEST,VERIFIED,P2,2019-01-07,143
+148215500,[HCM Report] Loans Report - Replace all references to PeopleView table with DU or HR API,HCM Dashboards,cviswanathan,mstockwell,INTERNAL_CLEANUP,ASSIGNED,P3,2020-01-23,0
+130384360,Pez_Landing tables - Data Source Key should be updated,HCM Data Mart,chavisinghal,pmallireddy,FEATURE_REQUEST,VERIFIER_ASSIGNED,P1,2019-04-12,39
+138438147,Data Mart - Convert views from Dremel SQL to Google SQL,HCM Data Mart,zeljebbari,zeljebbari,INTERNAL_CLEANUP,VERIFIED,P3,2019-07-26,52
+133225607,Define logic for backfill Cost Center hierarchy history from Pez,HCM Data Mart,,alvinying,PROCESS,NEW,P3,2019-05-21,55
+147003448,[Retrofit dashboard] Unit Testing for Migrated HCM Dashboards,HCM Data Mart,hongyil,cacanindin,PROCESS,VERIFIED,P2,2019-12-30,31
+137536098,Data Mart - Use Cloud function to be able to create team nodes iteratively,HCM Data Mart,,zeljebbari,FEATURE_REQUEST,NEW,P3,2019-07-15,0
+146576932,[HCM Report] Replicate PezUserCostCenterAccess across cells,HCM Dashboards,,mstockwell,INTERNAL_CLEANUP,NEW,P2,2019-12-19,0
+139424451,[Data Mart] Redefine dependencies in HCM reporting Dev and Corp Data Store Dev,HCM Data Mart,hongyil,hongyil,PROCESS,FIXED,P2,2019-08-14,120
+145465706,HCM Prod Jobs Status 12/1,HCM Production Bugs,pmallireddy,aghorai,INTERNAL_CLEANUP,FIXED,P1,2019-12-01,10
+119312772,"[HCM Report] Correct logic of ""active"" routing",HCM Dashboards,alvinying,alvinying,BUG,VERIFIED,P2,2018-11-09,21
+141466156,[Data Mart] Convert repeating array fields into a Nested Repeating Array for Staffing Request table,HCM Data Mart,aghorai,sameerpatel,FEATURE_REQUEST,ACCEPTED,P2,2019-09-23,128
+147421349,[Data Mart] Review DU object access,HCM Data Mart,,cacanindin,INTERNAL_CLEANUP,NEW,P1,2020-01-09,0
+131753750,Cut Over Doc for UAT/PROD - Pez CloudSQL & Create JNDI for UAT/PROD,HCM Data Mart,sunilsaxena,chavisinghal,PROCESS,VERIFIED,P2,2019-05-01,29
+136480143,Team Allocations Report - Twice the team allocation on the first day of the quarter,HCM Dashboards,cviswanathan,zeljebbari,BUG,FIXED,P3,2019-07-01,45
+148451708,[HCM Report] Update HCM plx table metadata and annotations,HCM Dashboards,mstockwell,mstockwell,PROCESS,ASSIGNED,P2,2020-01-28,0
+80179109,HCM Reporting - GDPR,HCM Data Mart,zeljebbari,alvinying,PROCESS,WILL_NOT_FIX,P3,2018-05-23,387
+147002037,Worksdash improvements - tracking bug,HCM Data Mart,hkondreddy,zeljebbari,FEATURE_REQUEST,VERIFIED,P2,2019-12-30,7
+140629706,[Data Mart] Issue summary :  fdw manager hierarchy  timing issue,HCM Data Mart,pmallireddy,pmallireddy,FEATURE_REQUEST,WILL_NOT_FIX,P2,2019-09-06,96
+137965687,[Data Mart] Analysis on pros/cons for converting date sharded tables to partitioned tables + Recommendation,HCM Data Mart,pmallireddy,mstockwell,INTERNAL_CLEANUP,ACCEPTED,P2,2019-07-19,193
