@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bugs</title>
+  <link rel="stylesheet" href="dc.css">
+  <link rel="stylesheet" href="dashboard.css">
+
+</head>
+
+<div class="main">
+<h1>HCM Buganizer Metadata</h1>
+<p style="font-style: italic;">based on <a href="https://plx.corp.google.com/scripts2/script_5e._31ed3b_0000_2e09_bf58_3c286d3c3f0a">script</a></p>
+  
+  <div class="container">
+    <div id="barchart">Bugs by component
+    </div>
+    <div id="score1"></div>
+    <div id="score2"></div>
+    <div id="score3"></div>
+    <div id="barchart2">Bugs by owner</div>
+      <div id="barchart3">Days since created</div>
+      <div id="table"></div>
+    
+  </div>
+  
+</div>
+
+
+
+<script src="./d3.js"></script>
+  <script src="./dc.js"></script>
+  
+  <script src="./crossfilter.js" ></script>
+
+
+<script>
+
+var piechart = new dc.PieChart("#barchart");
+var chart =  dc.boxPlot("#barchart3");
+ var rowchart =  new dc.RowChart("#barchart2");
+d3.csv("bugs.csv").then(function(data){
+
+data.forEach(d=>{
+  d.life_days=+d.life_days;
+})
+
+var ndx=crossfilter(data);
+var componentDim        = ndx.dimension(d=>d.component_name)
+var componentGroup            = componentDim.group()
+
+var ownerDim        = ndx.dimension(d=>d.owner)
+var ownerGroup      = ownerDim.group().reduceCount();
+
+
+var priorityDim = ndx.dimension(d=>d.priority_id)
+var priorityGroup = priorityDim.group().reduce(
+        function(p,v) {
+          // keep array sorted for efficiency
+          p.splice(d3.bisectLeft(p, v.life_days), 0, v.life_days);
+          return p;
+        },
+        function(p,v) {
+          p.splice(d3.bisectLeft(p, v.life_days), 1);
+          return p;
+        },
+        function() {
+          return [];
+        }
+      );
+
+  chart
+    .width(600)
+    .height(300)
+    .margins({top: 10, right: 50, bottom: 30, left: 50})
+    .dimension(priorityDim)
+    .group(priorityGroup)
+    .elasticY(true)
+    .elasticX(true);
+
+piechart
+    .width(400)
+    .height(180)
+    .radius(90)
+    .innerRadius(30)
+    .dimension(componentDim)
+    .group(componentGroup);
+ 
+ rowchart
+    .width(400)
+    .height(180)
+    .x(d3.scaleLinear().domain([0,100]).range([0,200]))
+    .elasticX(true)
+    .rowsCap(10)
+    .dimension(ownerDim)
+    .group(ownerGroup)
+    .render();
+  
+
+
+  dc.renderAll();
+
+
+
+})
+
+</script>
+
+</body>
+</html>
