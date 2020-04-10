@@ -1,10 +1,22 @@
+
 <!DOCTYPE html>
 <html>
 <head>
   <title>Bugs</title>
   <link rel="stylesheet" href="dc.css">
   <link rel="stylesheet" href="dashboard.css">
-
+<style>
+.table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+table {
+    max-width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+</style>
 </head>
 
 <div class="main">
@@ -15,17 +27,17 @@
     <div id="barchart">Bugs by component
     </div>
     <div id="score1"></div>
-    <div id="score2"></div>
+    <div id="score2">
+<span id="p1value" >P1:</span>
+    	<span id ="score"></span></div>
     <div id="score3"></div>
     <div id="barchart2">Bugs by owner</div>
       <div id="barchart3">Days since created</div>
-      <div id="table"></div>
+      <div id="table"><table id="test" class="table table-striped"></table></div>
     
   </div>
   
 </div>
-
-
 
 <script src="./d3.js"></script>
   <script src="./dc.js"></script>
@@ -38,18 +50,34 @@
 var piechart = new dc.PieChart("#barchart");
 var chart =  dc.boxPlot("#barchart3");
  var rowchart =  new dc.RowChart("#barchart2");
+ var score   =  new dc.NumberDisplay("#p1value");
+var lineChart = new dc.LineChart("#score");
+var table = new dc.DataTable("#test")
 d3.csv("bugs.csv").then(function(data){
+
+var parseDate = d3.timeParse("%Y-%m-%d")
+var formatMonth = d3.timeFormat("%m")
+var formatYear = d3.timeFormat("%Y")
 
 data.forEach(d=>{
   d.life_days=+d.life_days;
+  d.month=`${formatYear(parseDate(d.created))}-${formatMonth(parseDate(d.created))}-01`
 })
 
+data.forEach(d=>{
+	d.month=parseDate(d.month)
+})
+
+console.log(data)
 var ndx=crossfilter(data);
 var componentDim        = ndx.dimension(d=>d.component_name)
 var componentGroup            = componentDim.group()
 
 var ownerDim        = ndx.dimension(d=>d.owner)
 var ownerGroup      = ownerDim.group().reduceCount();
+
+var monthDim        = ndx.dimension(d=>d.month)
+var monthGroup      = monthDim.group().reduceCount();
 
 
 var priorityDim = ndx.dimension(d=>d.priority_id)
@@ -77,6 +105,8 @@ var priorityGroup = priorityDim.group().reduce(
     .elasticY(true)
     .elasticX(true);
 
+score.group(componentGroup).formatNumber(d3.format(".3g"));
+
 piechart
     .width(400)
     .height(180)
@@ -94,8 +124,24 @@ piechart
     .dimension(ownerDim)
     .group(ownerGroup)
     .render();
-  
 
+
+  lineChart
+          .width(180)
+          .height(80)
+          .x(d3.scaleTime().domain(d3.extent(data, d=>d.month)).range([0,180]))
+		  .curve(d3.curveCardinal)
+		   .dimension(monthDim)
+		   .group(monthGroup)
+		   .title("Bugs over time");
+table
+          .width(980)
+          .height(480)
+          .dimension(monthDim)
+          .size(10)
+          .showSections(false)
+          .columns(['bug_id','component_name','owner','reporter','type_id','status_id','priority_id','created','life_days'])
+          .order(d3.ascending)
 
   dc.renderAll();
 
